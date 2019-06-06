@@ -3156,13 +3156,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="82.2325" y="35.2425" size="1.27" layer="25"/>
 <attribute name="VALUE" x="82.2325" y="31.4325" size="1.27" layer="27"/>
 </element>
-<element name="ST-LINKV2" library="0con-lstb" package="MA06-1" value="" x="8.255" y="-3.81" smashed="yes">
-<attribute name="MF" value="" x="8.255" y="-3.81" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="8.255" y="-3.81" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="0.635" y="-2.159" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="8.255" y="-3.81" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="8.255" y="-3.81" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.715" y="-6.731" size="1.27" layer="27" ratio="10"/>
+<element name="ST-LINKV2" library="0con-lstb" package="MA06-1" value="" x="63.5" y="16.8275" smashed="yes" rot="R90">
+<attribute name="MF" value="" x="63.5" y="16.8275" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="" x="63.5" y="16.8275" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="61.849" y="9.2075" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="OC_FARNELL" value="unknown" x="63.5" y="16.8275" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="63.5" y="16.8275" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="66.421" y="14.2875" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -3198,8 +3198,6 @@ design rules under a new name.</description>
 <vertex x="0.9525" y="0.635"/>
 <vertex x="0.9525" y="54.2925"/>
 </polygon>
-<contactref element="ST-LINKV2" pad="3"/>
-<wire x1="18.32" y1="21.9075" x2="6.985" y2="-3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RS-CHB">
 <contactref element="TO-F7" pad="5"/>
@@ -3373,27 +3371,17 @@ design rules under a new name.</description>
 <signal name="SWDIO">
 <contactref element="TO-UI" pad="6"/>
 <contactref element="ST-LINKV2" pad="4"/>
-<wire x1="9.525" y1="-3.81" x2="79.375" y2="21.2725" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="18.0975" x2="79.375" y2="21.2725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="TO-UI" pad="7"/>
 <contactref element="ST-LINKV2" pad="2"/>
-<wire x1="4.445" y1="-3.81" x2="76.835" y2="18.7325" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="13.0175" x2="76.835" y2="18.7325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NRST">
 <contactref element="TO-UI" pad="5"/>
 <contactref element="ST-LINKV2" pad="5"/>
-<wire x1="12.065" y1="-3.81" x2="76.835" y2="21.2725" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="+3V3-2">
-<contactref element="TO-UI" pad="9"/>
-<contactref element="LED-3V3" pad="A"/>
-<wire x1="76.835" y1="16.1925" x2="78.4225" y2="38.735" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="+5V-2">
-<contactref element="TO-UI" pad="10"/>
-<contactref element="LED-5V" pad="A"/>
-<wire x1="79.375" y1="16.1925" x2="72.0725" y2="42.2275" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="20.6375" x2="76.835" y2="21.2725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="LED-5V" pad="K"/>
@@ -3409,11 +3397,22 @@ design rules under a new name.</description>
 <contactref element="TO-UI" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R1" pad="1"/>
+<contactref element="ST-LINKV2" pad="3"/>
 <wire x1="76.835" y1="26.3525" x2="84.4525" y2="33.9725" width="0" layer="19" extent="1-1"/>
 <wire x1="66.995" y1="32.7025" x2="76.835" y2="26.3525" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="15.5575" x2="76.835" y2="26.3525" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VDD">
+<signal name="+5V/2">
+<contactref element="TO-UI" pad="10"/>
+<contactref element="LED-5V" pad="A"/>
+<wire x1="79.375" y1="16.1925" x2="72.0725" y2="42.2275" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC/2">
 <contactref element="ST-LINKV2" pad="1"/>
+<contactref element="TO-UI" pad="9"/>
+<contactref element="LED-3V3" pad="A"/>
+<wire x1="76.835" y1="16.1925" x2="78.4225" y2="38.735" width="0" layer="19" extent="1-1"/>
+<wire x1="63.5" y1="10.4775" x2="76.835" y2="16.1925" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

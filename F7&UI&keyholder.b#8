@@ -1670,6 +1670,27 @@ Low profile connectors, straight&lt;p&gt;
 </package3d>
 </packages3d>
 </library>
+<library name="adafruit">
+<packages>
+<package name="LED5MM">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+5 mm, round</description>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1954,6 +1975,14 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="78.105" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="83.185" y="21.2725" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
+<element name="LED-5V" library="adafruit" package="LED5MM" value="" x="3.4925" y="-3.4925" smashed="yes">
+<attribute name="NAME" x="6.6675" y="-2.9591" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="6.6929" y="-5.2959" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="LED-3V3" library="adafruit" package="LED5MM" value="" x="3.4925" y="-10.16" smashed="yes">
+<attribute name="NAME" x="6.6675" y="-9.6266" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="6.6929" y="-11.9634" size="1.27" layer="27" ratio="10"/>
+</element>
 </elements>
 <signals>
 <signal name="+12V">
@@ -2169,9 +2198,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="+3V3-2">
 <contactref element="TO-UI" pad="9"/>
+<contactref element="LED-3V3" pad="A"/>
+<wire x1="2.2225" y1="-10.16" x2="76.835" y2="16.1925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V-2">
 <contactref element="TO-UI" pad="10"/>
+<contactref element="LED-5V" pad="A"/>
+<wire x1="2.2225" y1="-3.4925" x2="79.375" y2="16.1925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND-2">
 <contactref element="TO-UI" pad="1"/>

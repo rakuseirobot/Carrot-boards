@@ -6791,7 +6791,6 @@ design rules under a new name.</description>
 <contactref element="ADC1" pad="P$2"/>
 <contactref element="ADC2" pad="P$2"/>
 <contactref element="ADC3" pad="P$2"/>
-<contactref element="TO-UI" pad="9"/>
 <wire x1="77.47" y1="109.22" x2="77.47" y2="115.57" width="1.27" layer="1"/>
 <wire x1="77.47" y1="121.92" x2="77.47" y2="128.27" width="1.27" layer="1"/>
 <contactref element="HUMAN2" pad="P$1"/>
@@ -6999,7 +6998,6 @@ design rules under a new name.</description>
 <wire x1="32.028653125" y1="72.568546875" x2="32.028653125" y2="49.859453125" width="0.3048" layer="1"/>
 <via x="32.028653125" y="49.859453125" extent="1-16" drill="0.3048"/>
 <wire x1="32.028653125" y1="49.859453125" x2="32.028653125" y2="47.014653125" width="0.3048" layer="16"/>
-<wire x1="32.028653125" y1="47.014653125" x2="32.004" y2="44.45" width="0.3048" layer="16"/>
 <wire x1="77.47" y1="115.57" x2="77.47" y2="121.92" width="1.016" layer="16"/>
 <wire x1="75.438" y1="119.888" x2="77.47" y2="121.92" width="1.016" layer="1"/>
 <wire x1="67.564" y1="119.888" x2="75.438" y2="119.888" width="1.016" layer="1"/>
@@ -7053,7 +7051,9 @@ design rules under a new name.</description>
 <wire x1="90.0757" y1="79.05595" x2="89.65960625" y2="79.05595" width="0.6096" layer="1"/>
 <wire x1="89.65960625" y1="79.05595" x2="88.519" y2="77.91534375" width="0.6096" layer="1"/>
 <wire x1="88.519" y1="77.91534375" x2="88.519" y2="76.073" width="0.6096" layer="1"/>
-<wire x1="32.004" y1="44.45" x2="33.6522" y2="43.942" width="0" layer="19" extent="1-1"/>
+<contactref element="TO-UI" pad="13"/>
+<wire x1="32.028653125" y1="49.859453125" x2="32.004" y2="49.53" width="0" layer="19" extent="16-16"/>
+<wire x1="33.6522" y1="43.942" x2="32.028653125" y2="47.014653125" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+5V">
 <contactref element="S2" pad="3"/>
@@ -7062,7 +7062,6 @@ design rules under a new name.</description>
 <contactref element="X1" pad="2"/>
 <contactref element="RP-C1" pad="2"/>
 <contactref element="RP-C2" pad="2"/>
-<contactref element="TO-UI" pad="10"/>
 <wire x1="34.29" y1="100.33" x2="34.29" y2="97.028" width="0.8128" layer="1"/>
 <wire x1="33.1216" y1="88.255025" x2="30.04185" y2="85.175275" width="0.8128" layer="1"/>
 <wire x1="30.04185" y1="85.175275" x2="30.04185" y2="47.56785" width="0.8128" layer="1"/>
@@ -7085,8 +7084,9 @@ design rules under a new name.</description>
 <wire x1="60.706" y1="98.806" x2="61.722" y2="99.822" width="0.3048" layer="16"/>
 <wire x1="61.722" y1="99.822" x2="61.722" y2="101.346" width="0.3048" layer="16"/>
 <wire x1="37.338" y1="97.282" x2="55.118" y2="97.282" width="0.3048" layer="16"/>
-<wire x1="29.464" y1="44.45" x2="30.04185" y2="47.56785" width="0" layer="19" extent="1-1"/>
-<wire x1="30.734" y1="34.29" x2="29.464" y2="44.45" width="0" layer="19" extent="16-16"/>
+<contactref element="TO-UI" pad="14"/>
+<wire x1="30.04185" y1="47.56785" x2="29.464" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="30.734" y1="34.29" x2="30.04185" y2="47.56785" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="+12V">
 <contactref element="MAIN-SPL" pad="P$1"/>
@@ -7893,6 +7893,8 @@ design rules under a new name.</description>
 <wire x1="60.965" y1="123.44" x2="60.9396" y2="123.4146" width="0.508" layer="1"/>
 <wire x1="60.9396" y1="123.4146" x2="60.553425" y2="123.4146" width="0.508" layer="1"/>
 <wire x1="60.54" y1="115.57" x2="61.595" y2="115.57" width="0.3048" layer="1"/>
+<contactref element="TO-UI" pad="9"/>
+<wire x1="32.004" y1="44.45" x2="48.26" y2="100.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="ST-LINKV2" pad="4"/>
