@@ -7679,137 +7679,6 @@ type 0309, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-ptr500">
-<description>&lt;b&gt;PTR Connectors&lt;/b&gt;&lt;p&gt;
-Aug. 2004 / PTR Meßtechnik:&lt;br&gt;
-Die Bezeichnung der Serie AK505 wurde geändert.&lt;br&gt;
-Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
-&lt;TABLE BORDER=0 CELLSPACING=1 CELLPADDING=2&gt;
-  &lt;TR&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;Alte Bezeichnung&lt;/B&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;Neue Bezeichnung&lt;/B&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  &lt;TR&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;AK505/2,grau&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#0000FF"&gt;AK500/2-5.0-H-GRAU&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  &lt;TR&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;AK505/2DS,grau&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#0000FF"&gt;AK500/2DS-5.0-H-GRAU&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  &lt;TR&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;AKZ505/2,grau&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-    &lt;TD ALIGN=LEFT&gt;
-      &lt;B&gt;
-      &lt;FONT SIZE=3 FACE=ARIAL color="#0000FF"&gt;AKZ500/2-5.08-H-GRAU&lt;/FONT&gt;
-      &lt;/B&gt;
-    &lt;/TD&gt;
-  &lt;/TABLE&gt;
-
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="AK500/2">
-<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
-<wire x1="-5.08" y1="-3.556" x2="-5.08" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="3.937" x2="-5.08" y2="3.937" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="3.937" x2="5.08" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-3.556" x2="5.08" y2="-3.556" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="3.048" x2="-5.588" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="3.048" x2="-5.08" y2="3.937" width="0.1524" layer="21"/>
-<wire x1="-5.588" y1="3.175" x2="-5.588" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="-5.588" y1="2.032" x2="-5.08" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.159" x2="-5.08" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.159" x2="5.08" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.159" x2="5.08" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.159" x2="5.08" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.159" x2="-5.08" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-2.159" x2="5.08" y2="-3.556" width="0.1524" layer="21"/>
-<wire x1="1.4986" y1="-1.397" x2="3.9116" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="1.1176" y1="-1.016" x2="3.5306" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-3.9116" y1="-1.016" x2="-1.4986" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-3.5306" y1="-1.397" x2="-1.1176" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="1.4986" y1="-1.016" x2="3.5306" y2="1.016" width="0.6096" layer="51"/>
-<wire x1="-3.5306" y1="-1.016" x2="-1.4986" y2="1.016" width="0.6096" layer="51"/>
-<wire x1="1.1176" y1="-1.016" x2="1.4986" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="3.5306" y1="1.397" x2="3.9116" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-3.9116" y1="-1.016" x2="-3.5306" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="-1.4986" y1="1.397" x2="-1.1176" y2="1.016" width="0.1524" layer="51"/>
-<circle x="2.5146" y="3.048" radius="0.508" width="0.1524" layer="21"/>
-<circle x="-2.5146" y="3.048" radius="0.508" width="0.1524" layer="21"/>
-<circle x="2.5146" y="0" radius="1.778" width="0.1524" layer="51"/>
-<circle x="-2.5146" y="0" radius="1.778" width="0.1524" layer="51"/>
-<pad name="1" x="-2.5146" y="0" drill="1.3208" shape="long" rot="R90"/>
-<pad name="2" x="2.5146" y="0" drill="1.3208" shape="long" rot="R90"/>
-<text x="-5.08" y="4.445" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-5.715" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.445" y="2.54" size="0.9906" layer="21" ratio="12">1</text>
-<text x="0.635" y="2.54" size="0.9906" layer="21" ratio="12">2</text>
-<rectangle x1="-0.381" y1="-1.905" x2="0.381" y2="1.905" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="KL">
-<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="KLV">
-<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="-1.27" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<text x="-3.81" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AK500/2" prefix="X" uservalue="yes">
-<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="KL" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="KLV" x="0" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="AK500/2">
-<connects>
-<connect gate="-1" pin="KL" pad="1"/>
-<connect gate="-2" pin="KL" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply2">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
 GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -33280,6 +33149,20 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 &lt;author&gt;Created by yuhki50@gmail.com&lt;/author&gt;
 &lt;/p&gt;</description>
 <packages>
+<package name="B3P-VH">
+<wire x1="-5.91" y1="3.5" x2="-5.91" y2="2" width="0.1524" layer="21"/>
+<wire x1="-5.91" y1="2" x2="-5.91" y2="-5" width="0.1524" layer="21"/>
+<wire x1="-5.91" y1="3.5" x2="5.91" y2="3.5" width="0.1524" layer="21"/>
+<wire x1="5.91" y1="-5" x2="-5.91" y2="-5" width="0.1524" layer="21"/>
+<pad name="1" x="-3.96" y="0" drill="1.7" shape="square" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.7" rot="R90"/>
+<text x="-5" y="4.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5" y="-7" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="5.91" y1="3.5" x2="5.91" y2="2" width="0.1524" layer="21"/>
+<wire x1="5.91" y1="2" x2="5.91" y2="-5" width="0.1524" layer="21"/>
+<wire x1="-5.91" y1="2" x2="5.91" y2="2" width="0.1524" layer="21"/>
+<pad name="3" x="3.96" y="0" drill="1.7" rot="R90"/>
+</package>
 <package name="B2P-VH">
 <wire x1="-3.93" y1="3.5" x2="-3.93" y2="2" width="0.1524" layer="21"/>
 <wire x1="-3.93" y1="2" x2="-3.93" y2="-5" width="0.1524" layer="21"/>
@@ -33295,6 +33178,17 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </package>
 </packages>
 <symbols>
+<symbol name="CON-1X3">
+<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-3.81" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="0" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="0" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
 <symbol name="CON-1X2">
 <wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.4064" layer="94"/>
@@ -33307,6 +33201,31 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="B3P-VH" prefix="CN" uservalue="yes">
+<description>&lt;b&gt;Wire-to-Board 3.96mm pitch top mount connector&lt;/b&gt;
+&lt;p&gt;
+Source:
+&lt;ul&gt;
+&lt;li&gt;http://www.jst-mfg.com/product/pdf/jpn/VH.pdf&lt;/li&gt;
+&lt;li&gt;http://www.jst-mfg.com/product/detail.php?series=262&lt;/li&gt;
+&lt;ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CON-1X3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B3P-VH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="B2P-VH" prefix="CN" uservalue="yes">
 <description>&lt;b&gt;Wire-to-Board 3.96mm pitch top mount connector&lt;/b&gt;
 &lt;p&gt;
@@ -34932,6 +34851,50 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 </deviceset>
 </devicesets>
 </library>
+<library name="XT60">
+<packages>
+<package name="XT60">
+<pad name="+" x="4.5" y="0" drill="5" shape="octagon"/>
+<pad name="-" x="11.5" y="0" drill="5" shape="octagon"/>
+<wire x1="0" y1="4" x2="12" y2="4" width="0.127" layer="21"/>
+<wire x1="15.5" y1="1.5" x2="15.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="12" y1="4" x2="15.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="15.5" y1="-1.5" x2="12" y2="-4" width="0.127" layer="21"/>
+<wire x1="12" y1="-4" x2="0" y2="-4" width="0.127" layer="21"/>
+<wire x1="0" y1="-4" x2="0" y2="4" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="XT60">
+<pin name="VCC" x="-5.08" y="-2.54" length="middle"/>
+<pin name="GND" x="-5.08" y="2.54" length="middle"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="97"/>
+<wire x1="-2.54" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="97"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="97"/>
+<wire x1="10.16" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="97"/>
+<text x="-0.635" y="5.715" size="2.54" layer="97">XT60</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XT60">
+<description>XT60</description>
+<gates>
+<gate name="G$1" symbol="XT60" x="2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="XT60">
+<connects>
+<connect gate="G$1" pin="GND" pad="-"/>
+<connect gate="G$1" pin="VCC" pad="+"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -34944,7 +34907,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <parts>
 <part name="IC1" library="micro-stm_v3" deviceset="STM32F429V*T" device="" technology="G"/>
 <part name="X1" library="raspberrypi_bastelstube_v13" deviceset="RASPI_BOARD_B+#" device="_FP"/>
-<part name="SUPPLY9" library="con-ptr500" deviceset="AK500/2" device="" value="MAIN"/>
 <part name="SUPPLY10" library="supply2" deviceset="+9V" device="" value="+12V"/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="MAIN-SPL" library="forprint" deviceset="XH-2" device=""/>
@@ -35157,7 +35119,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <part name="CN9" library="jst-vh" deviceset="B2P-VH" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="+9V" device="" value="+12V"/>
 <part name="CN10" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="CN11" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="CN11" library="jst-vh" deviceset="B3P-VH" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="BAT-R1" library="0@Mylibrary-main1" deviceset="R-US_" device="R0805" value="2.2k"/>
 <part name="BAT-R2" library="0@Mylibrary-main1" deviceset="R-US_" device="R0805" value="330"/>
@@ -35177,10 +35139,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <part name="ADC4" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
-<part name="TO-UI" library="0con-harting-ml" deviceset="ML14" device=""/>
-<part name="GND46" library="supply1" deviceset="GND" device=""/>
-<part name="+3V20" library="supply1" deviceset="+3V3" device=""/>
-<part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="CON1" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="HUMAN1" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
@@ -35200,7 +35158,10 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <part name="STM-C7" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
 <part name="5VS-C1" library="rcl" deviceset="C-EU" device="C0805" value="0.1u"/>
 <part name="GND56" library="0@Mylibrary-main1" deviceset="GND" device=""/>
-<part name="SUPPLY6" library="supply2" deviceset="+9V" device="" value="+12V"/>
+<part name="U$2" library="XT60" deviceset="XT60" device=""/>
+<part name="TO-UI3" library="0con-harting-ml" deviceset="ML14" device=""/>
+<part name="SUPPLY7" library="supply2" deviceset="+9V" device="" value="+12V"/>
+<part name="GND57" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -35215,13 +35176,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 </instance>
 <instance part="IC1" gate="PWR" x="-63.5" y="10.16" smashed="yes"/>
 <instance part="X1" gate="G$1" x="0" y="185.42" smashed="yes"/>
-<instance part="SUPPLY9" gate="-1" x="-510.54" y="317.5" smashed="yes">
-<attribute name="NAME" x="-511.81" y="318.389" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="SUPPLY9" gate="-2" x="-510.54" y="312.42" smashed="yes">
-<attribute name="NAME" x="-511.81" y="313.309" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-514.35" y="308.737" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY10" gate="G$1" x="-386.08" y="309.88" smashed="yes">
 <attribute name="VALUE" x="-387.985" y="313.055" size="1.778" layer="96"/>
 </instance>
@@ -35963,9 +35917,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <attribute name="NAME" x="176.53" y="-107.95" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.53" y="-119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="CN11" gate="G$1" x="180.34" y="-137.16" smashed="yes">
-<attribute name="NAME" x="176.53" y="-133.35" size="1.778" layer="95"/>
-<attribute name="VALUE" x="176.53" y="-144.78" size="1.778" layer="96"/>
+<instance part="CN11" gate="G$1" x="180.34" y="-139.7" smashed="yes">
+<attribute name="NAME" x="176.53" y="-135.89" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="-147.32" size="1.778" layer="96"/>
 </instance>
 <instance part="GND42" gate="1" x="193.04" y="-134.62" smashed="yes">
 <attribute name="VALUE" x="190.5" y="-137.16" size="1.778" layer="96"/>
@@ -36065,19 +36019,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <instance part="+3V19" gate="G$1" x="66.04" y="-175.26" smashed="yes">
 <attribute name="VALUE" x="63.5" y="-180.34" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="TO-UI" gate="1" x="20.32" y="-198.12" smashed="yes">
-<attribute name="VALUE" x="16.51" y="-208.28" size="1.778" layer="96"/>
-<attribute name="NAME" x="16.51" y="-189.738" size="1.778" layer="95"/>
-</instance>
-<instance part="GND46" gate="1" x="33.02" y="-218.44" smashed="yes">
-<attribute name="VALUE" x="30.48" y="-220.98" size="1.778" layer="96"/>
-</instance>
-<instance part="+3V20" gate="G$1" x="33.02" y="-182.88" smashed="yes">
-<attribute name="VALUE" x="30.48" y="-187.96" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+3" gate="1" x="10.16" y="-182.88" smashed="yes">
-<attribute name="VALUE" x="7.62" y="-187.96" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="CON1" gate="G$1" x="109.22" y="-187.96" smashed="yes">
 <attribute name="NAME" x="106.68" y="-180.34" size="1.27" layer="95"/>
 <attribute name="VALUE" x="106.68" y="-195.58" size="1.27" layer="96"/>
@@ -36146,8 +36087,16 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <instance part="GND56" gate="1" x="-195.58" y="340.36" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-193.04" y="342.9" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="5.08" y="-187.96" smashed="yes">
-<attribute name="VALUE" x="3.175" y="-184.785" size="1.778" layer="96"/>
+<instance part="U$2" gate="G$1" x="-510.54" y="314.96" smashed="yes" rot="R180"/>
+<instance part="TO-UI3" gate="1" x="1.905" y="-200.9775" smashed="yes">
+<attribute name="VALUE" x="-1.905" y="-211.1375" size="1.778" layer="96"/>
+<attribute name="NAME" x="-1.905" y="-192.5955" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="-9.144" y="-185.928" smashed="yes">
+<attribute name="VALUE" x="-11.049" y="-182.753" size="1.778" layer="96"/>
+</instance>
+<instance part="GND57" gate="1" x="15.748" y="-193.294" smashed="yes" rot="R90">
+<attribute name="VALUE" x="18.288" y="-195.834" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -36408,12 +36357,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <pinref part="+3V19" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="+3V20" gate="G$1" pin="+3V3"/>
-<pinref part="TO-UI" gate="1" pin="13"/>
-<wire x1="33.02" y1="-190.5" x2="33.02" y2="-185.42" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-190.5" x2="33.02" y2="-190.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="HUMAN2" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="-205.74" x2="193.04" y2="-205.74" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="-205.74" x2="193.04" y2="-182.88" width="0.1524" layer="91"/>
@@ -36455,12 +36398,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <junction x="-7.62" y="226.06"/>
 <pinref part="RP-C2" gate="G$1" pin="2"/>
 <junction x="-7.62" y="220.98"/>
-</segment>
-<segment>
-<pinref part="P+3" gate="1" pin="+5V"/>
-<pinref part="TO-UI" gate="1" pin="14"/>
-<wire x1="10.16" y1="-190.5" x2="10.16" y2="-185.42" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="-190.5" x2="10.16" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -36556,9 +36493,8 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <pinref part="SUPPLY5" gate="G$1" pin="+9V"/>
 </segment>
 </net>
-<net name="N$38" class="0">
+<net name="12V-B" class="0">
 <segment>
-<pinref part="SUPPLY9" gate="-1" pin="KL"/>
 <wire x1="-505.46" y1="317.5" x2="-487.68" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="1"/>
 <wire x1="-510.54" y1="332.74" x2="-487.68" y2="332.74" width="0.1524" layer="91"/>
@@ -36566,23 +36502,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <junction x="-487.68" y="317.5"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="-487.68" y1="317.5" x2="-474.98" y2="317.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<pinref part="Q5" gate="G$1" pin="G"/>
-<wire x1="-449.58" y1="292.1" x2="-464.82" y2="292.1" width="0.1524" layer="91"/>
-<pinref part="SP-R6" gate="G$1" pin="1"/>
-<pinref part="SUOPPLY-SW2" gate="G$1" pin="1"/>
-<wire x1="-464.82" y1="292.1" x2="-469.9" y2="292.1" width="0.1524" layer="91"/>
-<junction x="-464.82" y="292.1"/>
-<wire x1="-469.9" y1="292.1" x2="-477.52" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="-469.9" y1="292.1" x2="-469.9" y2="289.306" width="0.1524" layer="91"/>
-<wire x1="-469.9" y1="289.306" x2="-458.724" y2="289.306" width="0.1524" layer="91"/>
-<junction x="-469.9" y="292.1"/>
-<pinref part="MAINSW2" gate="G$1" pin="1"/>
-<wire x1="-458.724" y1="289.306" x2="-454.66" y2="289.306" width="0.1524" layer="91"/>
-<wire x1="-454.66" y1="289.306" x2="-454.66" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -36637,19 +36557,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <wire x1="-322.58" y1="226.06" x2="-317.5" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="SP-R6" gate="G$1" pin="2"/>
-<wire x1="-464.82" y1="304.8" x2="-464.82" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="S"/>
-<wire x1="-441.96" y1="299.72" x2="-441.96" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="-441.96" y1="304.8" x2="-464.82" y2="304.8" width="0.1524" layer="91"/>
-<junction x="-441.96" y="304.8"/>
-<wire x1="-441.96" y1="304.8" x2="-441.96" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="-464.82" y1="317.5" x2="-441.96" y2="317.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
 <wire x1="-101.6" y1="271.78" x2="-109.22" y2="271.78" width="0.1524" layer="91"/>
@@ -36681,7 +36588,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <wire x1="-386.08" y1="294.64" x2="-386.08" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY9" gate="-2" pin="KL"/>
 <wire x1="-505.46" y1="312.42" x2="-490.22" y2="312.42" width="0.1524" layer="91"/>
 <pinref part="GND49" gate="1" pin="GND"/>
 <pinref part="X2" gate="G$1" pin="2"/>
@@ -36693,6 +36599,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="-472.44" y1="309.88" x2="-490.22" y2="309.88" width="0.1524" layer="91"/>
 <junction x="-490.22" y="309.88"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUOPPLY-SW2" gate="G$1" pin="2"/>
@@ -37232,12 +37139,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <pinref part="GND45" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="TO-UI" gate="1" pin="1"/>
-<wire x1="27.94" y1="-205.74" x2="33.02" y2="-205.74" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-205.74" x2="33.02" y2="-215.9" width="0.1524" layer="91"/>
-<pinref part="GND46" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="CON1" gate="G$1" pin="3"/>
 <wire x1="111.76" y1="-193.04" x2="114.3" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-193.04" x2="114.3" y2="-203.2" width="0.1524" layer="91"/>
@@ -37281,6 +37182,12 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <segment>
 <pinref part="5VS-C1" gate="G$1" pin="2"/>
 <pinref part="GND56" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND57" gate="1" pin="GND"/>
+<pinref part="TO-UI3" gate="1" pin="13"/>
+<wire x1="13.208" y1="-193.294" x2="9.525" y2="-193.294" width="0.1524" layer="91"/>
+<wire x1="9.525" y1="-193.294" x2="9.525" y2="-193.3575" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -37326,9 +37233,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <pinref part="IC1" gate="MCU" pin="BOOT0"/>
 </segment>
 <segment>
-<pinref part="TO-UI" gate="1" pin="4"/>
-<wire x1="7.62" y1="-203.2" x2="12.7" y2="-203.2" width="0.1524" layer="91"/>
-<label x="7.62" y="-203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-11.1125" y1="-200.9775" x2="-5.715" y2="-200.9775" width="0.1524" layer="91"/>
+<label x="-11.1125" y="-200.9775" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="8"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -37355,9 +37262,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="-187.96" y="261.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TO-UI" gate="1" pin="2"/>
-<wire x1="7.62" y1="-205.74" x2="12.7" y2="-205.74" width="0.1524" layer="91"/>
-<label x="7.62" y="-205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-5.715" y1="-206.0575" x2="-13.335" y2="-206.0575" width="0.1524" layer="91"/>
+<label x="-13.335" y="-206.0575" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="4"/>
 </segment>
 </net>
 <net name="5V-SW" class="0">
@@ -37372,9 +37279,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="-175.26" y="312.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TO-UI" gate="1" pin="3"/>
-<wire x1="27.94" y1="-203.2" x2="35.56" y2="-203.2" width="0.1524" layer="91"/>
-<label x="35.56" y="-203.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="14.605" y1="-203.5175" x2="9.525" y2="-203.5175" width="0.1524" layer="91"/>
+<label x="14.605" y="-203.5175" size="1.27" layer="95" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="5"/>
 </segment>
 </net>
 <net name="+5VS" class="0">
@@ -37452,11 +37359,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="73.66" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO-UI" gate="1" pin="8"/>
-<wire x1="12.7" y1="-198.12" x2="7.62" y2="-198.12" width="0.1524" layer="91"/>
-<label x="7.62" y="-198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="CON1" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="-187.96" x2="119.38" y2="-187.96" width="0.1524" layer="91"/>
 <label x="119.38" y="-187.96" size="1.27" layer="95" xref="yes"/>
@@ -37471,6 +37373,11 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <pinref part="IC4" gate="G$1" pin="VDD"/>
 <wire x1="-20.32" y1="-142.24" x2="-15.24" y2="-142.24" width="0.1524" layer="91"/>
 <label x="-15.24" y="-142.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TO-UI3" gate="1" pin="7"/>
+<wire x1="9.525" y1="-200.9775" x2="14.605" y2="-200.9775" width="0.1524" layer="91"/>
+<label x="14.605" y="-200.9775" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -37510,9 +37417,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <wire x1="-175.26" y1="269.24" x2="-175.26" y2="274.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TO-UI" gate="1" pin="9"/>
-<wire x1="27.94" y1="-195.58" x2="33.02" y2="-195.58" width="0.1524" layer="91"/>
-<label x="33.02" y="-195.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="-5.715" y1="-195.8975" x2="-10.795" y2="-195.8975" width="0.1524" layer="91"/>
+<label x="-10.795" y="-195.8975" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="12"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -37527,9 +37434,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="15.24" y="-83.82" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO-UI" gate="1" pin="6"/>
-<wire x1="12.7" y1="-200.66" x2="7.62" y2="-200.66" width="0.1524" layer="91"/>
-<label x="7.62" y="-200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-5.715" y1="-198.4375" x2="-10.795" y2="-198.4375" width="0.1524" layer="91"/>
+<label x="-10.795" y="-198.4375" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="10"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -37544,9 +37451,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="17.78" y="-83.82" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO-UI" gate="1" pin="7"/>
-<wire x1="27.94" y1="-198.12" x2="35.56" y2="-198.12" width="0.1524" layer="91"/>
-<label x="35.56" y="-198.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="9.525" y1="-195.8975" x2="17.145" y2="-195.8975" width="0.1524" layer="91"/>
+<label x="17.145" y="-195.8975" size="1.27" layer="95" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="11"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -37572,9 +37479,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="-55.88" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO-UI" gate="1" pin="5"/>
-<wire x1="35.56" y1="-200.66" x2="27.94" y2="-200.66" width="0.1524" layer="91"/>
-<label x="35.56" y="-200.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="17.145" y1="-198.4375" x2="9.525" y2="-198.4375" width="0.1524" layer="91"/>
+<label x="17.145" y="-198.4375" size="1.27" layer="95" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="9"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -38913,12 +38820,73 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <wire x1="-48.26" y1="-180.34" x2="-48.26" y2="-177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="+12VS" class="0">
+<segment>
+<pinref part="SP-R6" gate="G$1" pin="2"/>
+<wire x1="-464.82" y1="304.8" x2="-464.82" y2="302.26" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
+<wire x1="-441.96" y1="299.72" x2="-441.96" y2="304.8" width="0.1524" layer="91"/>
+<wire x1="-441.96" y1="304.8" x2="-464.82" y2="304.8" width="0.1524" layer="91"/>
+<junction x="-441.96" y="304.8"/>
+<wire x1="-441.96" y1="304.8" x2="-441.96" y2="317.5" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<wire x1="-464.82" y1="317.5" x2="-441.96" y2="317.5" width="0.1524" layer="91"/>
+<label x="-449.58" y="317.5" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TO-UI3" gate="1" pin="6"/>
+<wire x1="-5.715" y1="-203.5175" x2="-10.795" y2="-203.5175" width="0.1524" layer="91"/>
+<label x="-10.795" y="-203.5175" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR-FET" class="0">
+<segment>
+<pinref part="CN11" gate="G$1" pin="3"/>
+<wire x1="180.34" y1="-142.24" x2="167.64" y2="-142.24" width="0.1524" layer="91"/>
+<label x="167.64" y="-142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TO-UI3" gate="1" pin="2"/>
+<wire x1="-5.715" y1="-208.5975" x2="-10.795" y2="-208.5975" width="0.1524" layer="91"/>
+<label x="-10.795" y="-208.5975" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="12V-SW" class="0">
+<segment>
+<pinref part="Q5" gate="G$1" pin="G"/>
+<wire x1="-449.58" y1="292.1" x2="-464.82" y2="292.1" width="0.1524" layer="91"/>
+<pinref part="SP-R6" gate="G$1" pin="1"/>
+<pinref part="SUOPPLY-SW2" gate="G$1" pin="1"/>
+<wire x1="-464.82" y1="292.1" x2="-469.9" y2="292.1" width="0.1524" layer="91"/>
+<junction x="-464.82" y="292.1"/>
+<wire x1="-469.9" y1="292.1" x2="-477.52" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="-469.9" y1="292.1" x2="-469.9" y2="289.306" width="0.1524" layer="91"/>
+<wire x1="-469.9" y1="289.306" x2="-458.724" y2="289.306" width="0.1524" layer="91"/>
+<junction x="-469.9" y="292.1"/>
+<pinref part="MAINSW2" gate="G$1" pin="1"/>
+<wire x1="-458.724" y1="289.306" x2="-454.66" y2="289.306" width="0.1524" layer="91"/>
+<wire x1="-454.66" y1="289.306" x2="-454.66" y2="284.48" width="0.1524" layer="91"/>
+<label x="-474.98" y="292.1" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TO-UI3" gate="1" pin="3"/>
+<wire x1="9.525" y1="-206.0575" x2="14.605" y2="-206.0575" width="0.1524" layer="91"/>
+<label x="14.605" y="-206.0575" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LIPO2" class="0">
+<segment>
+<pinref part="TO-UI3" gate="1" pin="1"/>
+<wire x1="9.525" y1="-208.5975" x2="14.605" y2="-208.5975" width="0.1524" layer="91"/>
+<label x="14.605" y="-208.5975" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 <net name="+9V" class="0">
 <segment>
-<pinref part="TO-UI" gate="1" pin="12"/>
-<pinref part="SUPPLY6" gate="G$1" pin="+9V"/>
-<wire x1="12.7" y1="-193.04" x2="5.08" y2="-193.04" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-193.04" x2="5.08" y2="-190.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="G$1" pin="+9V"/>
+<pinref part="TO-UI3" gate="1" pin="14"/>
+<wire x1="-9.144" y1="-188.468" x2="-9.144" y2="-193.3575" width="0.1524" layer="91"/>
+<wire x1="-9.144" y1="-193.3575" x2="-5.715" y2="-193.3575" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -38970,12 +38938,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <approved hash="104,1,-124.46,-129.54,IC3,ANA33VDD,+3V3,,,"/>
 <approved hash="104,1,-193.04,-157.48,U$1,VDD,+3V3,,,"/>
 <approved hash="202,1,-167.64,-167.64,U$1,TRI,,,,"/>
-<approved hash="106,1,25.4,-160.02,N$24,,,,,"/>
-<approved hash="106,1,10.16,-160.02,N$37,,,,,"/>
 <approved hash="113,1,-202.878,306.07,SP-LED,,,,,"/>
 <approved hash="113,1,-135.419,-38.1,T1,,,,,"/>
 <approved hash="113,1,-135.419,0,T2,,,,,"/>
-<approved hash="113,1,-61.0023,55.5904,SV1,,,,,"/>
 <approved hash="113,1,-167.441,350.52,ROUTER,,,,,"/>
 <approved hash="113,1,-66.8655,-236.131,CN1,,,,,"/>
 <approved hash="113,1,-135.419,38.1,T3,,,,,"/>
@@ -38989,9 +38954,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <approved hash="113,1,-205.503,31.0236,CN8,,,,,"/>
 <approved hash="113,1,-187.723,31.0236,CN9,,,,,"/>
 <approved hash="113,1,180.577,-111.216,CN10,,,,,"/>
-<approved hash="113,1,180.577,-136.616,CN11,,,,,"/>
-<approved hash="113,1,17.78,-153.38,SV2,,,,,"/>
-<approved hash="113,1,20.32,-199.1,SV3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
