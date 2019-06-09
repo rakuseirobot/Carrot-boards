@@ -35107,7 +35107,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="X3" library="Akizuki" deviceset="C-07674_USB-A" device=""/>
-<part name="USB-POLY" library="bel-fuse" deviceset="0ZCH*" device="" technology="0200FF2E" value="350mA"/>
+<part name="USB-POLY" library="bel-fuse" deviceset="0ZCH*" device="" technology="0200FF2E" value="100mA"/>
 <part name="GND41" library="0@Mylibrary-main1" deviceset="GND" device=""/>
 <part name="CN2" library="jst-vh" deviceset="B2P-VH" device=""/>
 <part name="CN3" library="jst-vh" deviceset="B2P-VH" device=""/>
@@ -36491,6 +36491,13 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <wire x1="10.16" y1="-147.32" x2="5.08" y2="-147.32" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-147.32" x2="5.08" y2="-139.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="+9V"/>
+<label x="40.64" y="-134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SUPPLY7" gate="G$1" pin="+9V"/>
+<pinref part="TO-UI3" gate="1" pin="14"/>
+<wire x1="-9.144" y1="-188.468" x2="-9.144" y2="-193.3575" width="0.1524" layer="91"/>
+<wire x1="-9.144" y1="-193.3575" x2="-5.715" y2="-193.3575" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V-B" class="0">
@@ -37262,9 +37269,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="-187.96" y="261.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-5.715" y1="-206.0575" x2="-13.335" y2="-206.0575" width="0.1524" layer="91"/>
-<label x="-13.335" y="-206.0575" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="4"/>
+<pinref part="TO-UI3" gate="1" pin="6"/>
+<wire x1="-5.715" y1="-203.5175" x2="-10.795" y2="-203.5175" width="0.1524" layer="91"/>
+<label x="-10.795" y="-203.5175" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="5V-SW" class="0">
@@ -37434,9 +37441,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="15.24" y="-83.82" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-5.715" y1="-198.4375" x2="-10.795" y2="-198.4375" width="0.1524" layer="91"/>
-<label x="-10.795" y="-198.4375" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="10"/>
+<wire x1="9.525" y1="-195.8975" x2="17.145" y2="-195.8975" width="0.1524" layer="91"/>
+<label x="17.145" y="-195.8975" size="1.27" layer="95" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="11"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -37451,9 +37458,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="17.78" y="-83.82" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<wire x1="9.525" y1="-195.8975" x2="17.145" y2="-195.8975" width="0.1524" layer="91"/>
-<label x="17.145" y="-195.8975" size="1.27" layer="95" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="11"/>
+<wire x1="-5.715" y1="-198.4375" x2="-10.795" y2="-198.4375" width="0.1524" layer="91"/>
+<label x="-10.795" y="-198.4375" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="10"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -38702,6 +38709,11 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <wire x1="30.48" y1="-147.32" x2="30.48" y2="-139.7" width="0.1524" layer="91"/>
 <label x="30.48" y="-139.7" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TO-UI3" gate="1" pin="1"/>
+<wire x1="9.525" y1="-208.5975" x2="14.605" y2="-208.5975" width="0.1524" layer="91"/>
+<label x="14.605" y="-208.5975" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$27" class="0">
 <segment>
@@ -38834,9 +38846,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="-449.58" y="317.5" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO-UI3" gate="1" pin="6"/>
-<wire x1="-5.715" y1="-203.5175" x2="-10.795" y2="-203.5175" width="0.1524" layer="91"/>
-<label x="-10.795" y="-203.5175" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="3"/>
+<wire x1="9.525" y1="-206.0575" x2="14.605" y2="-206.0575" width="0.1524" layer="91"/>
+<label x="14.605" y="-206.0575" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR-FET" class="0">
@@ -38869,24 +38881,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 <label x="-474.98" y="292.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO-UI3" gate="1" pin="3"/>
-<wire x1="9.525" y1="-206.0575" x2="14.605" y2="-206.0575" width="0.1524" layer="91"/>
-<label x="14.605" y="-206.0575" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LIPO2" class="0">
-<segment>
-<pinref part="TO-UI3" gate="1" pin="1"/>
-<wire x1="9.525" y1="-208.5975" x2="14.605" y2="-208.5975" width="0.1524" layer="91"/>
-<label x="14.605" y="-208.5975" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="+9V" class="0">
-<segment>
-<pinref part="SUPPLY7" gate="G$1" pin="+9V"/>
-<pinref part="TO-UI3" gate="1" pin="14"/>
-<wire x1="-9.144" y1="-188.468" x2="-9.144" y2="-193.3575" width="0.1524" layer="91"/>
-<wire x1="-9.144" y1="-193.3575" x2="-5.715" y2="-193.3575" width="0.1524" layer="91"/>
+<wire x1="-5.715" y1="-206.0575" x2="-13.335" y2="-206.0575" width="0.1524" layer="91"/>
+<label x="-13.335" y="-206.0575" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TO-UI3" gate="1" pin="4"/>
 </segment>
 </net>
 </nets>
