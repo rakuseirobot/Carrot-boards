@@ -11644,9 +11644,9 @@ www.irf.com&lt;p&gt;
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
 <part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="40-XX" device="" package3d_urn="urn:adsk.eagle:package:27483/1"/>
 <part name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="40-XX" device="" package3d_urn="urn:adsk.eagle:package:27483/1"/>
-<part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
+<part name="3V3-FET" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
-<part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
+<part name="5V-FET" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="4.7k"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="4.7k"/>
 <part name="LIPO-LED" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
@@ -11664,7 +11664,7 @@ www.irf.com&lt;p&gt;
 <part name="TO-UI3" library="0con-harting-ml" deviceset="ML14" device=""/>
 <part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
-<part name="Q3" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
+<part name="12V-FET" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="4.7k"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
@@ -11844,14 +11844,14 @@ www.irf.com&lt;p&gt;
 <attribute name="NAME" x="266.7" y="85.09" size="1.778" layer="95"/>
 <attribute name="VALUE" x="272.415" y="82.55" size="1.778" layer="96"/>
 </instance>
-<instance part="Q1" gate="G$1" x="320.04" y="27.94" smashed="yes">
+<instance part="3V3-FET" gate="G$1" x="320.04" y="27.94" smashed="yes">
 <attribute name="NAME" x="322.58" y="27.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="322.58" y="25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY15" gate="G$1" x="320.04" y="4.1275" smashed="yes">
 <attribute name="VALUE" x="317.627" y="0.9525" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2" gate="G$1" x="347.0275" y="28.2575" smashed="yes">
+<instance part="5V-FET" gate="G$1" x="347.0275" y="28.2575" smashed="yes">
 <attribute name="NAME" x="349.5675" y="28.2575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="349.5675" y="25.7175" size="1.778" layer="96"/>
 </instance>
@@ -11911,7 +11911,7 @@ www.irf.com&lt;p&gt;
 <instance part="SUPPLY12" gate="G$1" x="432.054" y="25.146" smashed="yes" rot="R90">
 <attribute name="VALUE" x="435.229" y="22.733" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q3" gate="G$1" x="374.9675" y="28.2575" smashed="yes">
+<instance part="12V-FET" gate="G$1" x="374.9675" y="28.2575" smashed="yes">
 <attribute name="NAME" x="377.5075" y="28.2575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="377.5075" y="25.7175" size="1.778" layer="96"/>
 </instance>
@@ -12470,7 +12470,7 @@ www.irf.com&lt;p&gt;
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="313.055" y1="14.9225" x2="313.055" y2="15.24" width="0.1524" layer="91"/>
 <junction x="313.055" y="15.24"/>
-<pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="3V3-FET" gate="G$1" pin="S"/>
 <wire x1="338.1375" y1="15.24" x2="320.04" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="15.24" x2="313.055" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="22.86" x2="320.04" y2="15.24" width="0.1524" layer="91"/>
@@ -12478,12 +12478,12 @@ www.irf.com&lt;p&gt;
 <wire x1="320.04" y1="15.24" x2="320.04" y2="6.6675" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="GND2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
+<pinref part="5V-FET" gate="G$1" pin="S"/>
 <wire x1="347.0275" y1="23.1775" x2="347.0275" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="347.0275" y1="15.24" x2="338.1375" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="338.1375" y1="15.24" x2="338.1375" y2="15.5575" width="0.1524" layer="91"/>
 <wire x1="347.0275" y1="15.24" x2="366.395" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="12V-FET" gate="G$1" pin="S"/>
 <wire x1="366.395" y1="15.24" x2="374.9675" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="374.9675" y1="15.24" x2="374.9675" y2="23.1775" width="0.1524" layer="91"/>
 <junction x="347.0275" y="15.24"/>
@@ -12529,7 +12529,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="3V3-SW" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="3V3-FET" gate="G$1" pin="D"/>
 <wire x1="320.04" y1="33.02" x2="320.04" y2="35.56" width="0.1524" layer="91"/>
 <label x="320.04" y="35.56" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -12541,7 +12541,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="5V-SW" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
+<pinref part="5V-FET" gate="G$1" pin="D"/>
 <wire x1="347.0275" y1="33.3375" x2="347.0275" y2="34.6075" width="0.1524" layer="91"/>
 <label x="347.0275" y="34.925" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -12607,7 +12607,7 @@ www.irf.com&lt;p&gt;
 <pinref part="TO-UI3" gate="1" pin="4"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="D"/>
+<pinref part="12V-FET" gate="G$1" pin="D"/>
 <wire x1="374.9675" y1="33.3375" x2="374.9675" y2="36.5125" width="0.1524" layer="91"/>
 <label x="374.9675" y="36.5125" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -12632,7 +12632,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="3V3-FET" gate="G$1" pin="G"/>
 <wire x1="314.96" y1="25.4" x2="313.055" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="313.055" y1="25.4" x2="311.785" y2="25.4" width="0.1524" layer="91"/>
@@ -12642,7 +12642,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="G"/>
+<pinref part="5V-FET" gate="G$1" pin="G"/>
 <wire x1="341.9475" y1="25.7175" x2="338.1375" y2="25.7175" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="338.1375" y1="25.7175" x2="337.5025" y2="25.7175" width="0.1524" layer="91"/>
@@ -12704,7 +12704,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="Q3" gate="G$1" pin="G"/>
+<pinref part="12V-FET" gate="G$1" pin="G"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="369.8875" y1="25.7175" x2="366.395" y2="25.7175" width="0.1524" layer="91"/>
 <wire x1="366.395" y1="25.4" x2="366.395" y2="25.7175" width="0.1524" layer="91"/>

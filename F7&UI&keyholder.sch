@@ -416,149 +416,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7990212"&gt; Datashee
 </deviceset>
 </devicesets>
 </library>
-<library name="linear-technology" urn="urn:adsk.eagle:library:261">
-<description>&lt;b&gt;Linear Technology Devices&lt;/b&gt;&lt;p&gt;
-http://www.linear-tech.com&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DIL08" urn="urn:adsk.eagle:footprint:15995/1" library_version="1">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="SOIC8" urn="urn:adsk.eagle:footprint:15990/1" library_version="1">
-<description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
-<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
-<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
-<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
-<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
-<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="DIL08" urn="urn:adsk.eagle:package:16059/1" type="box" library_version="1">
-<description>Dual In Line Package</description>
-<packageinstances>
-<packageinstance name="DIL08"/>
-</packageinstances>
-</package3d>
-<package3d name="SOIC8" urn="urn:adsk.eagle:package:16057/1" type="box" library_version="1">
-<description>Small Outline IC</description>
-<packageinstances>
-<packageinstance name="SOIC8"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="LTC485" urn="urn:adsk.eagle:symbol:16006/1" library_version="1">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VCC" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
-<pin name="GND" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
-<pin name="RO" x="-10.16" y="2.54" length="short" direction="out"/>
-<pin name="!RE" x="-10.16" y="0" length="short" direction="in"/>
-<pin name="DE" x="-10.16" y="-2.54" length="short" direction="in"/>
-<pin name="DI" x="-10.16" y="-5.08" length="short" direction="in"/>
-<pin name="A" x="10.16" y="0" length="short" rot="R180"/>
-<pin name="B" x="10.16" y="-2.54" length="short" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LTC485" urn="urn:adsk.eagle:component:16093/1" prefix="IC" library_version="1">
-<description>&lt;b&gt;Low Power RS485 Interface Transceiver&lt;/b&gt;&lt;p&gt;
-Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C1,C1007,C1017,P2064,D1718</description>
-<gates>
-<gate name="G$1" symbol="LTC485" x="0" y="0"/>
-</gates>
-<devices>
-<device name="N" package="DIL08">
-<connects>
-<connect gate="G$1" pin="!RE" pad="2"/>
-<connect gate="G$1" pin="A" pad="6"/>
-<connect gate="G$1" pin="B" pad="7"/>
-<connect gate="G$1" pin="DE" pad="3"/>
-<connect gate="G$1" pin="DI" pad="4"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="RO" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16059/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="S" package="SOIC8">
-<connects>
-<connect gate="G$1" pin="!RE" pad="2"/>
-<connect gate="G$1" pin="A" pad="6"/>
-<connect gate="G$1" pin="B" pad="7"/>
-<connect gate="G$1" pin="DE" pad="3"/>
-<connect gate="G$1" pin="DI" pad="4"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="RO" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16057/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -11591,6 +11448,149 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </deviceset>
 </devicesets>
 </library>
+<library name="0linear-technology">
+<description>&lt;b&gt;Linear Technology Devices&lt;/b&gt;&lt;p&gt;
+http://www.linear-tech.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DIL08" urn="urn:adsk.eagle:footprint:15995/1" locally_modified="yes">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" rot="R90"/>
+<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOIC8" urn="urn:adsk.eagle:footprint:15990/1">
+<description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIL08" urn="urn:adsk.eagle:package:16059/1" type="box">
+<description>Dual In Line Package</description>
+<packageinstances>
+<packageinstance name="DIL08"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC8" urn="urn:adsk.eagle:package:16057/1" type="box">
+<description>Small Outline IC</description>
+<packageinstances>
+<packageinstance name="SOIC8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LTC485">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="RO" x="-10.16" y="2.54" length="short" direction="out"/>
+<pin name="!RE" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="DE" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="DI" x="-10.16" y="-5.08" length="short" direction="in"/>
+<pin name="A" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="B" x="10.16" y="-2.54" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LTC485" prefix="IC">
+<description>&lt;b&gt;Low Power RS485 Interface Transceiver&lt;/b&gt;&lt;p&gt;
+Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C1,C1007,C1017,P2064,D1718</description>
+<gates>
+<gate name="G$1" symbol="LTC485" x="0" y="0"/>
+</gates>
+<devices>
+<device name="N" package="DIL08">
+<connects>
+<connect gate="G$1" pin="!RE" pad="2"/>
+<connect gate="G$1" pin="A" pad="6"/>
+<connect gate="G$1" pin="B" pad="7"/>
+<connect gate="G$1" pin="DE" pad="3"/>
+<connect gate="G$1" pin="DI" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="RO" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16059/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S" package="SOIC8">
+<connects>
+<connect gate="G$1" pin="!RE" pad="2"/>
+<connect gate="G$1" pin="A" pad="6"/>
+<connect gate="G$1" pin="B" pad="7"/>
+<connect gate="G$1" pin="DE" pad="3"/>
+<connect gate="G$1" pin="DI" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="RO" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16057/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11603,8 +11603,8 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <parts>
 <part name="U$1" library="F7-DISCO" deviceset="F7-DISCO-ARDUINO" device=""/>
 <part name="IC4" library="MCP2561-E_P" deviceset="MCP2561-E_P" device=""/>
-<part name="IC2" library="linear-technology" library_urn="urn:adsk.eagle:library:261" deviceset="LTC485" device="N" package3d_urn="urn:adsk.eagle:package:16059/1"/>
-<part name="TO-F7" library="0con-harting-ml" deviceset="ML14" device=""/>
+<part name="IC2" library="0linear-technology" deviceset="LTC485" device="N" package3d_urn="urn:adsk.eagle:package:16059/1"/>
+<part name="TO-MAIN" library="0con-harting-ml" deviceset="ML14" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="S1" library="0switch" deviceset="255SB" device=""/>
@@ -11665,7 +11665,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <part name="SW1" library="0special" deviceset="SW_DIP-3" device="" package3d_urn="urn:adsk.eagle:package:26663/2"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
 <part name="VDD3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
-<part name="TO-UI3" library="0con-harting-ml" deviceset="ML14" device=""/>
+<part name="TO-MAIN2" library="0con-harting-ml" deviceset="ML14" device=""/>
 <part name="VDD4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
 <part name="12V-FET" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
@@ -11708,7 +11708,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <attribute name="NAME" x="-5.08" y="62.23" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-5.08" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="TO-F7" gate="1" x="154.94" y="12.7" smashed="yes">
+<instance part="TO-MAIN" gate="1" x="154.94" y="12.7" smashed="yes">
 <attribute name="VALUE" x="151.13" y="0" size="1.778" layer="96"/>
 <attribute name="NAME" x="151.13" y="23.622" size="1.778" layer="95"/>
 </instance>
@@ -11902,7 +11902,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <attribute name="VALUE" x="403.0345" y="65.7225" size="1.778" layer="96"/>
 </instance>
 <instance part="VDD3" gate="G$1" x="427.355" y="98.1075" smashed="yes" rot="R270"/>
-<instance part="TO-UI3" gate="1" x="418.465" y="17.4625" smashed="yes">
+<instance part="TO-MAIN2" gate="1" x="418.465" y="17.4625" smashed="yes">
 <attribute name="VALUE" x="414.655" y="7.3025" size="1.778" layer="96"/>
 <attribute name="NAME" x="414.655" y="25.8445" size="1.778" layer="95"/>
 </instance>
@@ -11982,7 +11982,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <nets>
 <net name="+12V" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="14"/>
+<pinref part="TO-MAIN" gate="1" pin="14"/>
 <wire x1="147.32" y1="20.32" x2="142.24" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="20.32" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="S"/>
@@ -11990,7 +11990,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="1"/>
+<pinref part="TO-MAIN" gate="1" pin="1"/>
 <wire x1="162.56" y1="5.08" x2="167.64" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="5.08" x2="167.64" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="GND44" gate="1" pin="GND"/>
@@ -12058,7 +12058,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="RS-CHB" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="5"/>
+<pinref part="TO-MAIN" gate="1" pin="5"/>
 <wire x1="162.56" y1="10.16" x2="167.64" y2="10.16" width="0.1524" layer="91"/>
 <label x="167.64" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12075,7 +12075,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="RS-CHA" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="6"/>
+<pinref part="TO-MAIN" gate="1" pin="6"/>
 <wire x1="147.32" y1="10.16" x2="139.7" y2="10.16" width="0.1524" layer="91"/>
 <label x="139.7" y="10.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12092,7 +12092,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="EMERGENCY" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="2"/>
+<pinref part="TO-MAIN" gate="1" pin="2"/>
 <wire x1="147.32" y1="5.08" x2="142.24" y2="5.08" width="0.1524" layer="91"/>
 <label x="142.24" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12104,7 +12104,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="F7-F4-SIG1" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="12"/>
+<pinref part="TO-MAIN" gate="1" pin="12"/>
 <wire x1="139.7" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
 <label x="139.7" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12116,7 +12116,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="F7-F4-SIG2" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="11"/>
+<pinref part="TO-MAIN" gate="1" pin="11"/>
 <wire x1="162.56" y1="17.78" x2="167.64" y2="17.78" width="0.1524" layer="91"/>
 <label x="167.64" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12128,7 +12128,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="F7-RS-SIG1" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="10"/>
+<pinref part="TO-MAIN" gate="1" pin="10"/>
 <wire x1="139.7" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
 <label x="139.7" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12140,7 +12140,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="F7-RS-SIG2" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="9"/>
+<pinref part="TO-MAIN" gate="1" pin="9"/>
 <wire x1="162.56" y1="15.24" x2="167.64" y2="15.24" width="0.1524" layer="91"/>
 <label x="167.64" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12152,7 +12152,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="LIPO" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="13"/>
+<pinref part="TO-MAIN" gate="1" pin="13"/>
 <wire x1="162.56" y1="20.32" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="20.32" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
 <label x="167.64" y="27.94" size="1.27" layer="95" rot="R90" xref="yes"/>
@@ -12165,7 +12165,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="HUMAN1" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="4"/>
+<pinref part="TO-MAIN" gate="1" pin="4"/>
 <wire x1="147.32" y1="7.62" x2="139.7" y2="7.62" width="0.1524" layer="91"/>
 <label x="139.7" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12177,7 +12177,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="CAN-L" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="7"/>
+<pinref part="TO-MAIN" gate="1" pin="7"/>
 <wire x1="162.56" y1="12.7" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
 <label x="167.64" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12194,7 +12194,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="CAN-H" class="0">
 <segment>
-<pinref part="TO-F7" gate="1" pin="8"/>
+<pinref part="TO-MAIN" gate="1" pin="8"/>
 <wire x1="139.7" y1="12.7" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
 <label x="139.7" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12394,7 +12394,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <segment>
 <wire x1="405.4475" y1="17.4625" x2="410.845" y2="17.4625" width="0.1524" layer="91"/>
 <label x="405.4475" y="17.4625" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="8"/>
+<pinref part="TO-MAIN2" gate="1" pin="8"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -12406,7 +12406,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <segment>
 <wire x1="426.085" y1="22.5425" x2="433.705" y2="22.5425" width="0.1524" layer="91"/>
 <label x="433.705" y="22.5425" size="1.27" layer="95" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="11"/>
+<pinref part="TO-MAIN2" gate="1" pin="11"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -12418,7 +12418,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <segment>
 <wire x1="410.845" y1="20.0025" x2="405.765" y2="20.0025" width="0.1524" layer="91"/>
 <label x="405.765" y="20.0025" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="10"/>
+<pinref part="TO-MAIN2" gate="1" pin="10"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -12441,7 +12441,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <segment>
 <wire x1="433.705" y1="20.0025" x2="426.085" y2="20.0025" width="0.1524" layer="91"/>
 <label x="433.705" y="20.0025" size="1.27" layer="95" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="9"/>
+<pinref part="TO-MAIN2" gate="1" pin="9"/>
 </segment>
 </net>
 <net name="GND2" class="0">
@@ -12489,7 +12489,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <pinref part="SUPPLY10" gate="G$1" pin="GND2"/>
 </segment>
 <segment>
-<pinref part="TO-UI3" gate="1" pin="13"/>
+<pinref part="TO-MAIN2" gate="1" pin="13"/>
 <wire x1="429.514" y1="25.146" x2="426.085" y2="25.146" width="0.1524" layer="91"/>
 <wire x1="426.085" y1="25.146" x2="426.085" y2="25.0825" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="GND2"/>
@@ -12542,7 +12542,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <label x="320.04" y="35.56" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO-UI3" gate="1" pin="6"/>
+<pinref part="TO-MAIN2" gate="1" pin="6"/>
 <wire x1="410.845" y1="14.9225" x2="405.765" y2="14.9225" width="0.1524" layer="91"/>
 <label x="405.765" y="14.9225" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12556,7 +12556,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <segment>
 <wire x1="431.165" y1="14.9225" x2="426.085" y2="14.9225" width="0.1524" layer="91"/>
 <label x="431.165" y="14.9225" size="1.27" layer="95" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="5"/>
+<pinref part="TO-MAIN2" gate="1" pin="5"/>
 </segment>
 </net>
 <net name="+5VS" class="0">
@@ -12566,7 +12566,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <label x="424.815" y="93.0275" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TO-UI3" gate="1" pin="7"/>
+<pinref part="TO-MAIN2" gate="1" pin="7"/>
 <wire x1="426.085" y1="17.4625" x2="431.165" y2="17.4625" width="0.1524" layer="91"/>
 <label x="431.165" y="17.4625" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12580,7 +12580,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <segment>
 <wire x1="410.845" y1="22.5425" x2="405.765" y2="22.5425" width="0.1524" layer="91"/>
 <label x="405.765" y="22.5425" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="12"/>
+<pinref part="TO-MAIN2" gate="1" pin="12"/>
 </segment>
 <segment>
 <pinref part="STM-R1" gate="G$1" pin="2"/>
@@ -12617,14 +12617,14 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="+12VS" class="0">
 <segment>
-<pinref part="TO-UI3" gate="1" pin="3"/>
+<pinref part="TO-MAIN2" gate="1" pin="3"/>
 <wire x1="426.085" y1="12.3825" x2="431.165" y2="12.3825" width="0.1524" layer="91"/>
 <label x="431.165" y="12.3825" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR-FET" class="0">
 <segment>
-<pinref part="TO-UI3" gate="1" pin="2"/>
+<pinref part="TO-MAIN2" gate="1" pin="2"/>
 <wire x1="410.845" y1="9.8425" x2="405.765" y2="9.8425" width="0.1524" layer="91"/>
 <label x="405.765" y="9.8425" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12644,7 +12644,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 <segment>
 <wire x1="410.845" y1="12.3825" x2="403.225" y2="12.3825" width="0.1524" layer="91"/>
 <label x="403.225" y="12.3825" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TO-UI3" gate="1" pin="4"/>
+<pinref part="TO-MAIN2" gate="1" pin="4"/>
 </segment>
 <segment>
 <pinref part="12V-FET" gate="G$1" pin="D"/>
@@ -12698,7 +12698,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </segment>
 <segment>
 <pinref part="VDD4" gate="G$1" pin="VDD"/>
-<pinref part="TO-UI3" gate="1" pin="14"/>
+<pinref part="TO-MAIN2" gate="1" pin="14"/>
 <wire x1="407.4795" y1="30.4165" x2="407.4795" y2="25.0825" width="0.1524" layer="91"/>
 <wire x1="407.4795" y1="25.0825" x2="410.845" y2="25.0825" width="0.1524" layer="91"/>
 </segment>
@@ -12792,7 +12792,7 @@ Source: http://www.belfuse.com/pdfs/0ZCH.pdf
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="TO-UI3" gate="1" pin="1"/>
+<pinref part="TO-MAIN2" gate="1" pin="1"/>
 <pinref part="USB-POLY" gate="G$1" pin="2"/>
 <wire x1="428.625" y1="9.8425" x2="426.085" y2="9.8425" width="0.1524" layer="91"/>
 </segment>

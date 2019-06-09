@@ -11649,14 +11649,13 @@ www.irf.com&lt;p&gt;
 <part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="4.7k"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="4.7k"/>
-<part name="J1" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
-<part name="J2" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
-<part name="J3" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
-<part name="J4" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
-<part name="J5" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
-<part name="J6" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
-<part name="CON1" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
-<part name="CON2" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
+<part name="LIPO-LED" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
+<part name="MOTOR-LED" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
+<part name="12V-LED" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
+<part name="MOTOR-KEY" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
+<part name="VOLTAGE" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
+<part name="5V-SW" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
+<part name="3V3-SW" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
 <part name="VDD2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
 <part name="SW1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-3" device="" package3d_urn="urn:adsk.eagle:package:26663/2"/>
@@ -11670,6 +11669,12 @@ www.irf.com&lt;p&gt;
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:26079/1" value="1k"/>
+<part name="12V-KEY" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
+<part name="VDD1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
+<part name="VDD5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
+<part name="VDD6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VDD" device=""/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
+<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11858,37 +11863,33 @@ www.irf.com&lt;p&gt;
 <attribute name="NAME" x="311.5564" y="16.51" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="316.357" y="16.51" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J1" gate="G$1" x="348.2975" y="86.0425" smashed="yes">
+<instance part="LIPO-LED" gate="G$1" x="348.2975" y="86.0425" smashed="yes">
 <attribute name="NAME" x="345.7575" y="93.6625" size="1.27" layer="95"/>
 <attribute name="VALUE" x="345.7575" y="91.1225" size="1.27" layer="96"/>
 </instance>
-<instance part="J2" gate="G$1" x="348.2975" y="71.755" smashed="yes">
+<instance part="MOTOR-LED" gate="G$1" x="348.2975" y="71.755" smashed="yes">
 <attribute name="NAME" x="345.7575" y="79.375" size="1.27" layer="95"/>
 <attribute name="VALUE" x="345.7575" y="76.835" size="1.27" layer="96"/>
 </instance>
-<instance part="J3" gate="G$1" x="348.2975" y="57.785" smashed="yes">
+<instance part="12V-LED" gate="G$1" x="348.2975" y="57.785" smashed="yes">
 <attribute name="NAME" x="345.7575" y="65.405" size="1.27" layer="95"/>
 <attribute name="VALUE" x="345.7575" y="62.865" size="1.27" layer="96"/>
 </instance>
-<instance part="J4" gate="G$1" x="375.6025" y="86.0425" smashed="yes">
+<instance part="MOTOR-KEY" gate="G$1" x="375.6025" y="86.0425" smashed="yes">
 <attribute name="NAME" x="373.0625" y="93.6625" size="1.27" layer="95"/>
 <attribute name="VALUE" x="373.0625" y="91.1225" size="1.27" layer="96"/>
 </instance>
-<instance part="J5" gate="G$1" x="375.6025" y="71.4375" smashed="yes">
-<attribute name="NAME" x="373.0625" y="79.0575" size="1.27" layer="95"/>
-<attribute name="VALUE" x="373.0625" y="76.5175" size="1.27" layer="96"/>
-</instance>
-<instance part="J6" gate="G$1" x="398.4625" y="86.995" smashed="yes">
+<instance part="VOLTAGE" gate="G$1" x="398.4625" y="86.995" smashed="yes">
 <attribute name="NAME" x="395.9225" y="94.615" size="1.27" layer="95"/>
 <attribute name="VALUE" x="395.9225" y="92.075" size="1.27" layer="96"/>
 </instance>
-<instance part="CON1" gate="G$1" x="311.4675" y="81.915" smashed="yes">
-<attribute name="NAME" x="308.9275" y="89.535" size="1.27" layer="95"/>
-<attribute name="VALUE" x="308.9275" y="74.295" size="1.27" layer="96"/>
+<instance part="5V-SW" gate="G$1" x="330.2" y="38.4175" smashed="yes" rot="R270">
+<attribute name="NAME" x="337.82" y="40.9575" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="322.58" y="40.9575" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="CON2" gate="G$1" x="310.8325" y="60.6425" smashed="yes">
-<attribute name="NAME" x="308.2925" y="68.2625" size="1.27" layer="95"/>
-<attribute name="VALUE" x="308.2925" y="53.0225" size="1.27" layer="96"/>
+<instance part="3V3-SW" gate="G$1" x="301.3075" y="37.7825" smashed="yes" rot="R270">
+<attribute name="NAME" x="308.9275" y="40.3225" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="293.6875" y="40.3225" size="1.27" layer="96" rot="R270"/>
 </instance>
 <instance part="VDD2" gate="G$1" x="357.505" y="60.325" smashed="yes" rot="R270"/>
 <instance part="SUPPLY9" gate="G$1" x="353.3775" y="43.18" smashed="yes">
@@ -11929,6 +11930,23 @@ www.irf.com&lt;p&gt;
 <instance part="R6" gate="G$1" x="360.9975" y="25.7175" smashed="yes" rot="R180">
 <attribute name="NAME" x="364.8075" y="24.2189" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="364.8075" y="29.0195" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="12V-KEY" gate="G$1" x="358.4575" y="33.3375" smashed="yes" rot="MR0">
+<attribute name="NAME" x="360.9975" y="40.9575" size="1.27" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="360.9975" y="38.4175" size="1.27" layer="96" rot="MR0"/>
+</instance>
+<instance part="VDD1" gate="G$1" x="353.1362" y="35.9918" smashed="yes" rot="R90"/>
+<instance part="VDD5" gate="G$1" x="332.105" y="46.99" smashed="yes">
+<attribute name="VALUE" x="329.565" y="44.45" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="VDD6" gate="G$1" x="303.53" y="47.625" smashed="yes">
+<attribute name="VALUE" x="300.99" y="45.085" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="295.275" y="31.4325" smashed="yes">
+<attribute name="VALUE" x="292.862" y="28.2575" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY13" gate="G$1" x="325.12" y="31.4325" smashed="yes">
+<attribute name="VALUE" x="322.707" y="28.2575" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12423,21 +12441,21 @@ www.irf.com&lt;p&gt;
 <junction x="274.32" y="101.6"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="LIPO-LED" gate="G$1" pin="2"/>
 <wire x1="350.8375" y1="83.5025" x2="353.3775" y2="83.5025" width="0.1524" layer="91"/>
 <wire x1="353.3775" y1="83.5025" x2="353.3775" y2="69.215" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="12V-LED" gate="G$1" pin="2"/>
 <wire x1="353.3775" y1="69.215" x2="353.3775" y2="55.245" width="0.1524" layer="91"/>
 <wire x1="353.3775" y1="55.245" x2="353.3775" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="350.8375" y1="55.245" x2="353.3775" y2="55.245" width="0.1524" layer="91"/>
 <junction x="353.3775" y="55.245"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="MOTOR-LED" gate="G$1" pin="2"/>
 <wire x1="350.8375" y1="69.215" x2="353.3775" y2="69.215" width="0.1524" layer="91"/>
 <junction x="353.3775" y="69.215"/>
 <pinref part="SUPPLY9" gate="G$1" pin="GND2"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="2"/>
+<pinref part="VOLTAGE" gate="G$1" pin="2"/>
 <wire x1="401.0025" y1="84.455" x2="405.4475" y2="84.455" width="0.1524" layer="91"/>
 <wire x1="405.4475" y1="84.455" x2="405.4475" y2="71.4375" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="GND2"/>
@@ -12472,6 +12490,17 @@ www.irf.com&lt;p&gt;
 <junction x="338.1375" y="15.24"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <junction x="366.395" y="15.24"/>
+</segment>
+<segment>
+<pinref part="5V-SW" gate="G$1" pin="3"/>
+<pinref part="SUPPLY13" gate="G$1" pin="GND2"/>
+<wire x1="325.12" y1="33.9725" x2="325.12" y2="35.8775" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="3V3-SW" gate="G$1" pin="3"/>
+<pinref part="SUPPLY8" gate="G$1" pin="GND2"/>
+<wire x1="296.2275" y1="35.2425" x2="295.275" y2="35.2425" width="0.1524" layer="91"/>
+<wire x1="295.275" y1="35.2425" x2="295.275" y2="33.9725" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC/2" class="0">
@@ -12555,7 +12584,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="MOTOR-FET" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="MOTOR-LED" gate="G$1" pin="1"/>
 <wire x1="350.8375" y1="74.295" x2="354.965" y2="74.295" width="0.1524" layer="91"/>
 <label x="355.2825" y="74.295" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12563,6 +12592,12 @@ www.irf.com&lt;p&gt;
 <pinref part="TO-UI3" gate="1" pin="2"/>
 <wire x1="410.845" y1="9.8425" x2="405.765" y2="9.8425" width="0.1524" layer="91"/>
 <label x="405.765" y="9.8425" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MOTOR-KEY" gate="G$1" pin="2"/>
+<wire x1="378.1425" y1="83.5025" x2="378.1425" y2="83.185" width="0.1524" layer="91"/>
+<wire x1="378.1425" y1="83.185" x2="380.365" y2="83.185" width="0.1524" layer="91"/>
+<label x="381" y="83.185" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="12V-SW" class="0">
@@ -12579,7 +12614,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="LIPO2" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="LIPO-LED" gate="G$1" pin="1"/>
 <wire x1="350.8375" y1="88.5825" x2="354.0125" y2="88.5825" width="0.1524" layer="91"/>
 <label x="353.695" y="88.265" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12587,6 +12622,12 @@ www.irf.com&lt;p&gt;
 <pinref part="TO-UI3" gate="1" pin="1"/>
 <wire x1="426.085" y1="9.8425" x2="431.165" y2="9.8425" width="0.1524" layer="91"/>
 <label x="431.165" y="9.8425" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MOTOR-KEY" gate="G$1" pin="1"/>
+<wire x1="378.1425" y1="88.5825" x2="381.635" y2="88.5825" width="0.1524" layer="91"/>
+<wire x1="381.635" y1="88.5825" x2="381.635" y2="88.9" width="0.1524" layer="91"/>
+<label x="382.27" y="88.265" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12611,7 +12652,7 @@ www.irf.com&lt;p&gt;
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="12V-LED" gate="G$1" pin="1"/>
 <wire x1="350.8375" y1="60.325" x2="354.965" y2="60.325" width="0.1524" layer="91"/>
 <pinref part="VDD2" gate="G$1" pin="VDD"/>
 </segment>
@@ -12626,6 +12667,26 @@ www.irf.com&lt;p&gt;
 <wire x1="407.4795" y1="30.4165" x2="407.4795" y2="25.0825" width="0.1524" layer="91"/>
 <wire x1="407.4795" y1="25.0825" x2="410.845" y2="25.0825" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="12V-KEY" gate="G$1" pin="1"/>
+<pinref part="VDD1" gate="G$1" pin="VDD"/>
+<wire x1="355.9175" y1="35.8775" x2="355.6762" y2="35.8775" width="0.1524" layer="91"/>
+<wire x1="355.6762" y1="35.8775" x2="355.6762" y2="35.9918" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="3V3-SW" gate="G$1" pin="2"/>
+<wire x1="301.3075" y1="35.2425" x2="301.3075" y2="33.655" width="0.1524" layer="91"/>
+<wire x1="301.3075" y1="33.655" x2="303.53" y2="33.655" width="0.1524" layer="91"/>
+<wire x1="303.53" y1="33.655" x2="303.53" y2="45.085" width="0.1524" layer="91"/>
+<pinref part="VDD6" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<pinref part="5V-SW" gate="G$1" pin="2"/>
+<wire x1="330.2" y1="35.8775" x2="330.2" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="33.02" x2="332.105" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="332.105" y1="33.02" x2="332.105" y2="44.45" width="0.1524" layer="91"/>
+<pinref part="VDD5" gate="G$1" pin="VDD"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -12635,7 +12696,7 @@ www.irf.com&lt;p&gt;
 <pinref part="SW1" gate="A" pin="6"/>
 <wire x1="405.4475" y1="95.5675" x2="405.4475" y2="93.0275" width="0.1524" layer="91"/>
 <junction x="405.4475" y="95.5675"/>
-<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="VOLTAGE" gate="G$1" pin="1"/>
 <wire x1="405.4475" y1="93.0275" x2="405.4475" y2="89.535" width="0.1524" layer="91"/>
 <wire x1="405.4475" y1="89.535" x2="401.0025" y2="89.535" width="0.1524" layer="91"/>
 <junction x="405.4475" y="93.0275"/>
@@ -12650,6 +12711,31 @@ www.irf.com&lt;p&gt;
 <wire x1="366.395" y1="25.7175" x2="366.0775" y2="25.7175" width="0.1524" layer="91"/>
 <junction x="366.395" y="25.7175"/>
 <pinref part="R6" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="12V-KEY" gate="G$1" pin="2"/>
+<wire x1="355.9175" y1="25.7175" x2="355.9175" y2="30.7975" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="301.625" y1="25.4" x2="301.625" y2="29.845" width="0.1524" layer="91"/>
+<pinref part="3V3-SW" gate="G$1" pin="1"/>
+<wire x1="301.625" y1="29.845" x2="306.3875" y2="29.845" width="0.1524" layer="91"/>
+<wire x1="306.3875" y1="29.845" x2="306.3875" y2="35.2425" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="327.3425" y1="25.7175" x2="327.3425" y2="31.115" width="0.1524" layer="91"/>
+<wire x1="327.3425" y1="31.115" x2="335.28" y2="31.115" width="0.1524" layer="91"/>
+<pinref part="5V-SW" gate="G$1" pin="1"/>
+<wire x1="335.28" y1="31.115" x2="335.28" y2="35.8775" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
