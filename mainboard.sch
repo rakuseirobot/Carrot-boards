@@ -21396,8 +21396,6 @@ W = angled&lt;p&gt;
 <pad name="5" x="3.81" y="0" drill="1.016" rot="R90"/>
 <pad name="6" x="6.35" y="0" drill="1.016" rot="R90"/>
 <text x="-7.62" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-6.985" y="-2.921" size="1.27" layer="21" ratio="10">1</text>
-<text x="5.715" y="1.651" size="1.27" layer="21" ratio="10">6</text>
 <text x="-2.54" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
@@ -36095,6 +36093,126 @@ Polyswitch Resetable Fuses</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ_2W" urn="urn:adsk.eagle:footprint:15438/1" library_version="1">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="3.175" y1="-1.524" x2="-3.175" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.524" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="1.27" x2="-3.175" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.175" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.175" y1="-1.524" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.429" y1="-1.27" x2="3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.524" x2="3.175" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="0" x2="3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="0" x2="-3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.127" x2="2.032" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="3" x="2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-3.429" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+<package name="SJ_2" urn="urn:adsk.eagle:footprint:15439/1" library_version="1">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.413" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="0.762" x2="-2.159" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.159" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.016" x2="2.413" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="0.127" x2="1.016" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SJ_2W" urn="urn:adsk.eagle:package:15476/1" type="box" library_version="1">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ_2W"/>
+</packageinstances>
+</package3d>
+<package3d name="SJ_2" urn="urn:adsk.eagle:package:15474/1" type="box" library_version="1">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ_2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SJ_2" urn="urn:adsk.eagle:symbol:15437/1" library_version="1">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ2W" urn="urn:adsk.eagle:component:15505/1" prefix="SJ" uservalue="yes" library_version="1">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SJ_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W" package="SJ_2W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15476/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SJ_2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15474/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -36301,16 +36419,12 @@ Polyswitch Resetable Fuses</description>
 <part name="X3" library="Akizuki" deviceset="C-07674_USB-A" device=""/>
 <part name="USB-POLY" library="polyswitch" deviceset="PTC-" device="F0805MP" value="400mA"/>
 <part name="GND41" library="0@Mylibrary-main1" deviceset="GND" device=""/>
-<part name="CN2" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="CN3" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="CN4" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="CN5" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="CN6" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="CN7" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="CN8" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="CN9" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="LED5" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="LED6" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="LED8" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="LED7" library="jst-vh" deviceset="B2P-VH" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="+9V" device="" value="+12V"/>
-<part name="CN11" library="jst-vh" deviceset="B3P-VH" device=""/>
+<part name="LIPO" library="jst-vh" deviceset="B3P-VH" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="BAT-R1" library="0@Mylibrary-main1" deviceset="R-US_" device="R0805" value="2.2k"/>
 <part name="BAT-R2" library="0@Mylibrary-main1" deviceset="R-US_" device="R0805" value="330"/>
@@ -36329,7 +36443,7 @@ Polyswitch Resetable Fuses</description>
 <part name="ADC4" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
-<part name="CON1" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
+<part name="PING" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="HUMAN1" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
 <part name="HUMAN2" library="0@Mylibrary-main1" deviceset="XH-3" device=""/>
@@ -36359,6 +36473,26 @@ Polyswitch Resetable Fuses</description>
 <part name="X4" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/2" device="" package3d_urn="urn:adsk.eagle:package:9880/1"/>
 <part name="X5" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/2" device="" package3d_urn="urn:adsk.eagle:package:9880/1"/>
 <part name="X6" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/2" device="" package3d_urn="urn:adsk.eagle:package:9880/1"/>
+<part name="LED3" library="jst-vh" deviceset="B3P-VH" device=""/>
+<part name="SUPPLY6" library="supply2" deviceset="+9V" device="" value="+12V"/>
+<part name="P+3" library="supply1" deviceset="+5V" device=""/>
+<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="W" package3d_urn="urn:adsk.eagle:package:15476/1"/>
+<part name="GND46" library="supply1" deviceset="GND" device=""/>
+<part name="LED1" library="jst-vh" deviceset="B3P-VH" device=""/>
+<part name="SUPPLY8" library="supply2" deviceset="+9V" device="" value="+12V"/>
+<part name="P+4" library="supply1" deviceset="+5V" device=""/>
+<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="W" package3d_urn="urn:adsk.eagle:package:15476/1"/>
+<part name="GND58" library="supply1" deviceset="GND" device=""/>
+<part name="LED4" library="jst-vh" deviceset="B3P-VH" device=""/>
+<part name="SUPPLY9" library="supply2" deviceset="+9V" device="" value="+12V"/>
+<part name="P+5" library="supply1" deviceset="+5V" device=""/>
+<part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="W" package3d_urn="urn:adsk.eagle:package:15476/1"/>
+<part name="GND59" library="supply1" deviceset="GND" device=""/>
+<part name="LED2" library="jst-vh" deviceset="B3P-VH" device=""/>
+<part name="SUPPLY11" library="supply2" deviceset="+9V" device="" value="+12V"/>
+<part name="P+6" library="supply1" deviceset="+5V" device=""/>
+<part name="SJ4" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="W" package3d_urn="urn:adsk.eagle:package:15476/1"/>
+<part name="GND60" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -37035,42 +37169,26 @@ Polyswitch Resetable Fuses</description>
 <instance part="GND41" gate="1" x="93.98" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="91.44" y="-10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="CN2" gate="G$1" x="-187.96" y="83.82" smashed="yes">
-<attribute name="NAME" x="-191.77" y="87.63" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-191.77" y="76.2" size="1.778" layer="96"/>
-</instance>
-<instance part="CN3" gate="G$1" x="-205.74" y="83.82" smashed="yes">
-<attribute name="NAME" x="-209.55" y="87.63" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-209.55" y="76.2" size="1.778" layer="96"/>
-</instance>
-<instance part="CN4" gate="G$1" x="-205.74" y="66.04" smashed="yes">
-<attribute name="NAME" x="-209.55" y="69.85" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-209.55" y="58.42" size="1.778" layer="96"/>
-</instance>
-<instance part="CN5" gate="G$1" x="-187.96" y="66.04" smashed="yes">
-<attribute name="NAME" x="-191.77" y="69.85" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-191.77" y="58.42" size="1.778" layer="96"/>
-</instance>
-<instance part="CN6" gate="G$1" x="-187.96" y="48.26" smashed="yes">
+<instance part="LED5" gate="G$1" x="-187.96" y="48.26" smashed="yes">
 <attribute name="NAME" x="-191.77" y="52.07" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-191.77" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="CN7" gate="G$1" x="-205.74" y="48.26" smashed="yes">
+<instance part="LED6" gate="G$1" x="-205.74" y="48.26" smashed="yes">
 <attribute name="NAME" x="-209.55" y="52.07" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-209.55" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="CN8" gate="G$1" x="-205.74" y="30.48" smashed="yes">
+<instance part="LED8" gate="G$1" x="-205.74" y="30.48" smashed="yes">
 <attribute name="NAME" x="-209.55" y="34.29" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-209.55" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="CN9" gate="G$1" x="-187.96" y="30.48" smashed="yes">
+<instance part="LED7" gate="G$1" x="-187.96" y="30.48" smashed="yes">
 <attribute name="NAME" x="-191.77" y="34.29" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-191.77" y="22.86" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="-203.2" y="101.6" smashed="yes">
-<attribute name="VALUE" x="-205.105" y="104.775" size="1.778" layer="96"/>
+<instance part="SUPPLY4" gate="G$1" x="-203.2" y="71.12" smashed="yes">
+<attribute name="VALUE" x="-205.105" y="74.295" size="1.778" layer="96"/>
 </instance>
-<instance part="CN11" gate="G$1" x="180.34" y="-139.7" smashed="yes">
+<instance part="LIPO" gate="G$1" x="180.34" y="-139.7" smashed="yes">
 <attribute name="NAME" x="176.53" y="-135.89" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.53" y="-147.32" size="1.778" layer="96"/>
 </instance>
@@ -37156,7 +37274,7 @@ Polyswitch Resetable Fuses</description>
 <instance part="+3V19" gate="G$1" x="66.04" y="-175.26" smashed="yes">
 <attribute name="VALUE" x="63.5" y="-180.34" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CON1" gate="G$1" x="109.22" y="-187.96" smashed="yes">
+<instance part="PING" gate="G$1" x="109.22" y="-187.96" smashed="yes">
 <attribute name="NAME" x="106.68" y="-180.34" size="1.27" layer="95"/>
 <attribute name="VALUE" x="106.68" y="-195.58" size="1.27" layer="96"/>
 </instance>
@@ -37271,6 +37389,74 @@ Polyswitch Resetable Fuses</description>
 <instance part="X6" gate="-2" x="-375.92" y="314.96" smashed="yes">
 <attribute name="NAME" x="-377.19" y="315.849" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-379.73" y="311.277" size="1.778" layer="96"/>
+</instance>
+<instance part="LED3" gate="G$1" x="-121.92" y="-15.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="-115.57" y="-11.43" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-129.54" y="-11.43" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="-124.46" y="0" smashed="yes">
+<attribute name="VALUE" x="-126.365" y="3.175" size="1.778" layer="96"/>
+</instance>
+<instance part="P+3" gate="1" x="-114.3" y="0" smashed="yes">
+<attribute name="VALUE" x="-116.84" y="-5.08" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ1" gate="G$1" x="-119.38" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="-119.761" y="-2.54" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-117.475" y="-2.54" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND46" gate="1" x="-129.54" y="-20.32" smashed="yes">
+<attribute name="VALUE" x="-132.08" y="-22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="LED1" gate="G$1" x="-121.92" y="-43.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="-115.57" y="-39.37" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-129.54" y="-39.37" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="-124.46" y="-27.94" smashed="yes">
+<attribute name="VALUE" x="-126.365" y="-24.765" size="1.778" layer="96"/>
+</instance>
+<instance part="P+4" gate="1" x="-114.3" y="-27.94" smashed="yes">
+<attribute name="VALUE" x="-116.84" y="-33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ2" gate="G$1" x="-119.38" y="-33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="-119.761" y="-30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-117.475" y="-30.48" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND58" gate="1" x="-129.54" y="-48.26" smashed="yes">
+<attribute name="VALUE" x="-132.08" y="-50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="LED4" gate="G$1" x="-170.18" y="-15.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="-163.83" y="-11.43" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-177.8" y="-11.43" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="-172.72" y="0" smashed="yes">
+<attribute name="VALUE" x="-174.625" y="3.175" size="1.778" layer="96"/>
+</instance>
+<instance part="P+5" gate="1" x="-162.56" y="0" smashed="yes">
+<attribute name="VALUE" x="-165.1" y="-5.08" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ3" gate="G$1" x="-167.64" y="-5.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="-168.021" y="-2.54" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-165.735" y="-2.54" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND59" gate="1" x="-177.8" y="-20.32" smashed="yes">
+<attribute name="VALUE" x="-180.34" y="-22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="LED2" gate="G$1" x="-170.18" y="-43.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="-163.83" y="-39.37" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-177.8" y="-39.37" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="-172.72" y="-27.94" smashed="yes">
+<attribute name="VALUE" x="-174.625" y="-24.765" size="1.778" layer="96"/>
+</instance>
+<instance part="P+6" gate="1" x="-162.56" y="-27.94" smashed="yes">
+<attribute name="VALUE" x="-165.1" y="-33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ4" gate="G$1" x="-167.64" y="-33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="-168.021" y="-30.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-165.735" y="-30.48" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND60" gate="1" x="-177.8" y="-48.26" smashed="yes">
+<attribute name="VALUE" x="-180.34" y="-50.8" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -37588,6 +37774,26 @@ Polyswitch Resetable Fuses</description>
 <pinref part="RP-C2" gate="G$1" pin="2"/>
 <junction x="-7.62" y="220.98"/>
 </segment>
+<segment>
+<pinref part="SJ1" gate="G$1" pin="3"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="-114.3" y1="-2.54" x2="-114.3" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ2" gate="G$1" pin="3"/>
+<pinref part="P+4" gate="1" pin="+5V"/>
+<wire x1="-114.3" y1="-30.48" x2="-114.3" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ3" gate="G$1" pin="3"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<wire x1="-162.56" y1="-2.54" x2="-162.56" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ4" gate="G$1" pin="3"/>
+<pinref part="P+6" gate="1" pin="+5V"/>
+<wire x1="-162.56" y1="-30.48" x2="-162.56" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -37643,40 +37849,24 @@ Polyswitch Resetable Fuses</description>
 <pinref part="SUPPLY3" gate="G$1" pin="+9V"/>
 </segment>
 <segment>
-<pinref part="CN8" gate="G$1" pin="1"/>
-<wire x1="-213.36" y1="91.44" x2="-213.36" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="83.82" x2="-213.36" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-213.36" y1="66.04" x2="-213.36" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="LED8" gate="G$1" pin="1"/>
+<wire x1="-213.36" y1="63.5" x2="-213.36" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-213.36" y1="48.26" x2="-213.36" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-213.36" y1="30.48" x2="-205.74" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="CN9" gate="G$1" pin="1"/>
+<pinref part="LED7" gate="G$1" pin="1"/>
 <wire x1="-187.96" y1="30.48" x2="-195.58" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="30.48" x2="-195.58" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="48.26" x2="-195.58" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="66.04" x2="-195.58" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="83.82" x2="-195.58" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-195.58" y1="91.44" x2="-203.2" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="CN2" gate="G$1" pin="1"/>
-<wire x1="-203.2" y1="91.44" x2="-213.36" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-187.96" y1="83.82" x2="-195.58" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-195.58" y="83.82"/>
-<pinref part="CN5" gate="G$1" pin="1"/>
-<wire x1="-187.96" y1="66.04" x2="-195.58" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-195.58" y="66.04"/>
-<pinref part="CN6" gate="G$1" pin="1"/>
+<wire x1="-195.58" y1="48.26" x2="-195.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="63.5" x2="-203.2" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-203.2" y1="63.5" x2="-213.36" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="G$1" pin="1"/>
 <wire x1="-187.96" y1="48.26" x2="-195.58" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-195.58" y="48.26"/>
-<pinref part="CN7" gate="G$1" pin="1"/>
+<pinref part="LED6" gate="G$1" pin="1"/>
 <wire x1="-205.74" y1="48.26" x2="-213.36" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-213.36" y="48.26"/>
-<pinref part="CN4" gate="G$1" pin="1"/>
-<wire x1="-205.74" y1="66.04" x2="-213.36" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-213.36" y="66.04"/>
-<pinref part="CN3" gate="G$1" pin="1"/>
-<wire x1="-205.74" y1="83.82" x2="-213.36" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-213.36" y="83.82"/>
-<wire x1="-203.2" y1="91.44" x2="-203.2" y2="99.06" width="0.1524" layer="91"/>
-<junction x="-203.2" y="91.44"/>
+<wire x1="-203.2" y1="63.5" x2="-203.2" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-203.2" y="63.5"/>
 <pinref part="SUPPLY4" gate="G$1" pin="+9V"/>
 </segment>
 <segment>
@@ -37691,6 +37881,26 @@ Polyswitch Resetable Fuses</description>
 <pinref part="TO-UI3" gate="1" pin="14"/>
 <wire x1="-9.144" y1="-188.468" x2="-9.144" y2="-193.3575" width="0.1524" layer="91"/>
 <wire x1="-9.144" y1="-193.3575" x2="-5.715" y2="-193.3575" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY9" gate="G$1" pin="+9V"/>
+<wire x1="-172.72" y1="-2.54" x2="-172.72" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY6" gate="G$1" pin="+9V"/>
+<wire x1="-124.46" y1="-2.54" x2="-124.46" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY11" gate="G$1" pin="+9V"/>
+<wire x1="-172.72" y1="-30.48" x2="-172.72" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+<pinref part="SUPPLY8" gate="G$1" pin="+9V"/>
+<wire x1="-124.46" y1="-30.48" x2="-124.46" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V-B" class="0">
@@ -38281,7 +38491,7 @@ Polyswitch Resetable Fuses</description>
 <pinref part="GND41" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CN11" gate="G$1" pin="2"/>
+<pinref part="LIPO" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="-124.46" x2="170.18" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="-139.7" x2="180.34" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="-124.46" x2="193.04" y2="-124.46" width="0.1524" layer="91"/>
@@ -38319,7 +38529,7 @@ Polyswitch Resetable Fuses</description>
 <pinref part="GND45" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CON1" gate="G$1" pin="3"/>
+<pinref part="PING" gate="G$1" pin="3"/>
 <wire x1="111.76" y1="-193.04" x2="114.3" y2="-193.04" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-193.04" x2="114.3" y2="-203.2" width="0.1524" layer="91"/>
 <pinref part="GND47" gate="1" pin="GND"/>
@@ -38368,6 +38578,34 @@ Polyswitch Resetable Fuses</description>
 <pinref part="TO-UI3" gate="1" pin="13"/>
 <wire x1="13.208" y1="-193.294" x2="9.525" y2="-193.294" width="0.1524" layer="91"/>
 <wire x1="9.525" y1="-193.294" x2="9.525" y2="-193.3575" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="3"/>
+<wire x1="-124.46" y1="-15.24" x2="-124.46" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-12.7" x2="-129.54" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="-12.7" x2="-129.54" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="GND46" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="3"/>
+<wire x1="-124.46" y1="-43.18" x2="-124.46" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-40.64" x2="-129.54" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="-40.64" x2="-129.54" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="GND58" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED4" gate="G$1" pin="3"/>
+<wire x1="-172.72" y1="-15.24" x2="-172.72" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="-12.7" x2="-177.8" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-12.7" x2="-177.8" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="GND59" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="3"/>
+<wire x1="-172.72" y1="-43.18" x2="-172.72" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="-40.64" x2="-177.8" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="-40.64" x2="-177.8" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="GND60" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -38535,7 +38773,7 @@ Polyswitch Resetable Fuses</description>
 <label x="73.66" y="17.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON1" gate="G$1" pin="2"/>
+<pinref part="PING" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="-187.96" x2="119.38" y2="-187.96" width="0.1524" layer="91"/>
 <label x="119.38" y="-187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39285,7 +39523,7 @@ Polyswitch Resetable Fuses</description>
 <label x="-134.62" y="86.36" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CN9" gate="G$1" pin="2"/>
+<pinref part="LED7" gate="G$1" pin="2"/>
 <wire x1="-187.96" y1="27.94" x2="-190.5" y2="27.94" width="0.1524" layer="91"/>
 <label x="-190.5" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -39297,23 +39535,9 @@ Polyswitch Resetable Fuses</description>
 <label x="-104.14" y="86.36" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CN8" gate="G$1" pin="2"/>
+<pinref part="LED8" gate="G$1" pin="2"/>
 <wire x1="-205.74" y1="27.94" x2="-208.28" y2="27.94" width="0.1524" layer="91"/>
 <label x="-208.28" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LED1" class="0">
-<segment>
-<pinref part="CN2" gate="G$1" pin="2"/>
-<wire x1="-187.96" y1="81.28" x2="-190.5" y2="81.28" width="0.1524" layer="91"/>
-<label x="-190.5" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LED2" class="0">
-<segment>
-<pinref part="CN3" gate="G$1" pin="2"/>
-<wire x1="-205.74" y1="81.28" x2="-208.28" y2="81.28" width="0.1524" layer="91"/>
-<label x="-208.28" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FET4" class="0">
@@ -39322,6 +39546,12 @@ Polyswitch Resetable Fuses</description>
 <wire x1="-2.54" y1="78.74" x2="-2.54" y2="86.36" width="0.1524" layer="91"/>
 <label x="-2.54" y="86.36" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="LED4" gate="G$1" pin="2"/>
+<wire x1="-170.18" y1="-15.24" x2="-170.18" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="-7.62" x2="-177.8" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-177.8" y="-7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="FET2" class="0">
 <segment>
@@ -39329,16 +39559,24 @@ Polyswitch Resetable Fuses</description>
 <wire x1="27.94" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
 <label x="35.56" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="2"/>
+<wire x1="-170.18" y1="-43.18" x2="-170.18" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="-35.56" x2="-177.8" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-177.8" y="-35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="FET3" class="0">
-<segment>
-<wire x1="-152.4" y1="-2.54" x2="-149.86" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-152.4" y="-2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="MCU" pin="PC13"/>
 <wire x1="27.94" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
 <label x="35.56" y="15.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="2"/>
+<wire x1="-121.92" y1="-15.24" x2="-121.92" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="-7.62" x2="-129.54" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-129.54" y="-7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BUZZER1" class="0">
@@ -39385,13 +39623,15 @@ Polyswitch Resetable Fuses</description>
 </net>
 <net name="FET1" class="0">
 <segment>
-<wire x1="-152.4" y1="-40.64" x2="-149.86" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-152.4" y="-40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="MCU" pin="PC15"/>
 <wire x1="27.94" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
 <label x="35.56" y="20.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="2"/>
+<wire x1="-121.92" y1="-43.18" x2="-121.92" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="-35.56" x2="-129.54" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-129.54" y="-35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADC2" class="0">
@@ -39746,28 +39986,6 @@ Polyswitch Resetable Fuses</description>
 <wire x1="91.44" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED3" class="0">
-<segment>
-<wire x1="-134.62" y1="7.62" x2="-134.62" y2="5.08" width="0.1524" layer="91"/>
-<label x="-134.62" y="7.62" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="CN5" gate="G$1" pin="2"/>
-<wire x1="-187.96" y1="63.5" x2="-190.5" y2="63.5" width="0.1524" layer="91"/>
-<label x="-190.5" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LED4" class="0">
-<segment>
-<wire x1="-104.14" y1="7.62" x2="-104.14" y2="5.08" width="0.1524" layer="91"/>
-<label x="-104.14" y="7.62" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="CN4" gate="G$1" pin="2"/>
-<wire x1="-205.74" y1="63.5" x2="-208.28" y2="63.5" width="0.1524" layer="91"/>
-<label x="-208.28" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="LED5" class="0">
 <segment>
 <pinref part="T3" gate="A" pin="D"/>
@@ -39775,7 +39993,7 @@ Polyswitch Resetable Fuses</description>
 <label x="-134.62" y="45.72" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CN6" gate="G$1" pin="2"/>
+<pinref part="LED5" gate="G$1" pin="2"/>
 <wire x1="-187.96" y1="45.72" x2="-190.5" y2="45.72" width="0.1524" layer="91"/>
 <label x="-190.5" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -39787,14 +40005,14 @@ Polyswitch Resetable Fuses</description>
 <label x="-104.14" y="45.72" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CN7" gate="G$1" pin="2"/>
+<pinref part="LED6" gate="G$1" pin="2"/>
 <wire x1="-205.74" y1="45.72" x2="-208.28" y2="45.72" width="0.1524" layer="91"/>
 <label x="-208.28" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LIPO" class="0">
 <segment>
-<pinref part="CN11" gate="G$1" pin="1"/>
+<pinref part="LIPO" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="-137.16" x2="167.64" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="-137.16" x2="167.64" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="-124.46" x2="165.1" y2="-124.46" width="0.1524" layer="91"/>
@@ -39841,7 +40059,7 @@ Polyswitch Resetable Fuses</description>
 <label x="33.02" y="-43.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON1" gate="G$1" pin="1"/>
+<pinref part="PING" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="-182.88" x2="114.3" y2="-182.88" width="0.1524" layer="91"/>
 <label x="114.3" y="-182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -39955,7 +40173,7 @@ Polyswitch Resetable Fuses</description>
 </net>
 <net name="MOTOR-FET" class="0">
 <segment>
-<pinref part="CN11" gate="G$1" pin="3"/>
+<pinref part="LIPO" gate="G$1" pin="3"/>
 <wire x1="180.34" y1="-142.24" x2="167.64" y2="-142.24" width="0.1524" layer="91"/>
 <label x="167.64" y="-142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -39998,6 +40216,34 @@ Polyswitch Resetable Fuses</description>
 <segment>
 <pinref part="SP-LED2" gate="G$1" pin="C"/>
 <pinref part="100" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<pinref part="LED3" gate="G$1" pin="1"/>
+<wire x1="-119.38" y1="-15.24" x2="-119.38" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="SJ2" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="1"/>
+<wire x1="-119.38" y1="-43.18" x2="-119.38" y2="-38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="SJ3" gate="G$1" pin="2"/>
+<pinref part="LED4" gate="G$1" pin="1"/>
+<wire x1="-167.64" y1="-15.24" x2="-167.64" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="SJ4" gate="G$1" pin="2"/>
+<pinref part="LED2" gate="G$1" pin="1"/>
+<wire x1="-167.64" y1="-43.18" x2="-167.64" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
