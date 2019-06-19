@@ -17986,7 +17986,6 @@ Source:
 <part name="IC4" library="MCP2561-E_P" deviceset="MCP2561-E_P" device=""/>
 <part name="IC2" library="0linear-technology" deviceset="LTC485" device="N" package3d_urn="urn:adsk.eagle:package:16059/1"/>
 <part name="TO-MAIN" library="0con-harting-ml" deviceset="ML14" device=""/>
-<part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="S1" library="0switch" deviceset="255SB" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+9V" device="" value="+12V">
@@ -18101,6 +18100,7 @@ Source:
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="W" package3d_urn="urn:adsk.eagle:package:15476/1"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18130,9 +18130,6 @@ Source:
 <instance part="TO-MAIN" gate="1" x="154.94" y="12.7" smashed="yes">
 <attribute name="VALUE" x="151.13" y="0" size="1.778" layer="96"/>
 <attribute name="NAME" x="151.13" y="23.622" size="1.778" layer="95"/>
-</instance>
-<instance part="GND44" gate="1" x="167.64" y="-7.62" smashed="yes">
-<attribute name="VALUE" x="165.1" y="-10.16" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="38.1" y="68.58" smashed="yes">
 <attribute name="VALUE" x="35.56" y="66.04" size="1.778" layer="96"/>
@@ -18511,6 +18508,9 @@ Source:
 <instance part="SUPPLY19" gate="+5V" x="193.04" y="119.38" smashed="yes">
 <attribute name="VALUE" x="191.135" y="122.555" size="1.778" layer="96"/>
 </instance>
+<instance part="GND13" gate="1" x="144.78" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="142.24" y="-7.62" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18524,12 +18524,6 @@ Source:
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<pinref part="TO-MAIN" gate="1" pin="1"/>
-<wire x1="162.56" y1="5.08" x2="167.64" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="5.08" x2="167.64" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="GND44" gate="1" pin="GND"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND2"/>
 <pinref part="U$1" gate="G$1" pin="GND1"/>
@@ -18603,6 +18597,12 @@ Source:
 <wire x1="177.8" y1="106.68" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="TO-MAIN" gate="1" pin="2"/>
+<wire x1="144.78" y1="-2.54" x2="144.78" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="5.08" x2="147.32" y2="5.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RS-CHB" class="0">
 <segment>
@@ -18640,14 +18640,14 @@ Source:
 </net>
 <net name="EMERGENCY" class="0">
 <segment>
-<pinref part="TO-MAIN" gate="1" pin="2"/>
-<wire x1="147.32" y1="5.08" x2="142.24" y2="5.08" width="0.1524" layer="91"/>
-<label x="142.24" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="PA4"/>
 <wire x1="60.96" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
 <label x="58.42" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TO-MAIN" gate="1" pin="3"/>
+<wire x1="162.56" y1="7.62" x2="167.64" y2="7.62" width="0.1524" layer="91"/>
+<label x="167.64" y="7.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="F7-F4-SIG1" class="0">

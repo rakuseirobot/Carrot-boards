@@ -19251,9 +19251,9 @@ Polyswitch Resetable Fuses</description>
 <label x="-22.86" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="50.8" y1="193.04" x2="45.72" y2="193.04" width="0.1524" layer="91"/>
-<label x="45.72" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SV1" gate="G$1" pin="4"/>
+<wire x1="50.8" y1="190.5" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
+<label x="45.72" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -19263,9 +19263,9 @@ Polyswitch Resetable Fuses</description>
 <label x="-22.86" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="4"/>
-<wire x1="50.8" y1="190.5" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
-<label x="45.72" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<wire x1="50.8" y1="193.04" x2="45.72" y2="193.04" width="0.1524" layer="91"/>
+<label x="45.72" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$22" class="0">
