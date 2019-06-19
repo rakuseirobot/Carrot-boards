@@ -36493,6 +36493,7 @@ Polyswitch Resetable Fuses</description>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="SJ4" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="W" package3d_urn="urn:adsk.eagle:package:15476/1"/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
+<part name="CAN-R" library="0@Mylibrary-main1" deviceset="XH-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -37457,6 +37458,10 @@ Polyswitch Resetable Fuses</description>
 </instance>
 <instance part="GND60" gate="1" x="-177.8" y="-48.26" smashed="yes">
 <attribute name="VALUE" x="-180.34" y="-50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="CAN-R" gate="G$1" x="-25.4" y="-175.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="-22.86" y="-182.88" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-22.86" y="-180.34" size="1.27" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -40116,6 +40121,10 @@ Polyswitch Resetable Fuses</description>
 <wire x1="-33.02" y1="-182.88" x2="-33.02" y2="-185.42" width="0.1524" layer="91"/>
 <label x="-33.02" y="-185.42" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="CAN-R2" gate="G$1" pin="2"/>
+<pinref part="CAN-R" gate="G$1" pin="1"/>
+<wire x1="-27.94" y1="-177.8" x2="-27.94" y2="-182.88" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-182.88" x2="-33.02" y2="-182.88" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-182.88"/>
 </segment>
 <segment>
 <pinref part="TO-F7" gate="1" pin="7"/>
@@ -40133,6 +40142,9 @@ Polyswitch Resetable Fuses</description>
 <wire x1="-33.02" y1="-172.72" x2="-33.02" y2="-170.18" width="0.1524" layer="91"/>
 <label x="-33.02" y="-170.18" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="CAN-R1" gate="G$1" pin="2"/>
+<pinref part="CAN-R" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="-172.72" x2="-33.02" y2="-172.72" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-172.72"/>
 </segment>
 <segment>
 <pinref part="TO-F7" gate="1" pin="8"/>
