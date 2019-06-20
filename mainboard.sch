@@ -34418,8 +34418,6 @@ Mors, distributor Buerklin, 11G702</description>
 <pad name="1" x="-2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
 <pad name="3" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-5.715" y="-0.889" size="1.778" layer="21" ratio="10">1</text>
-<text x="4.318" y="-0.889" size="1.778" layer="21" ratio="10">2</text>
 <text x="-3.175" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-4.572" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="2.54" y1="2.54" x2="3.81" y2="1.27" width="0.127" layer="21" curve="-90"/>

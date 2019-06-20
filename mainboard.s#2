@@ -36265,7 +36265,7 @@ Polyswitch Resetable Fuses</description>
 <part name="RS485-S" library="0@Mylibrary-main1" deviceset="R-US_" device="R0805" value="100"/>
 <part name="IC3" library="national-semiconductor" library_urn="urn:adsk.eagle:library:307" deviceset="DP83848" device="" package3d_urn="urn:adsk.eagle:package:21215/1"/>
 <part name="CN1" library="Akizuki" deviceset="P-04809_RJLD260TC1" device=""/>
-<part name="U$1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="ASE" device="" package3d_urn="urn:adsk.eagle:package:12120/1"/>
+<part name="50MHZ" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="ASE" device="" package3d_urn="urn:adsk.eagle:package:12120/1"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="NT-R1" library="0@Mylibrary-main1" deviceset="R-US_" device="R0805" value="2k"/>
 <part name="NT-R2" library="0@Mylibrary-main1" deviceset="R-US_" device="R0805" value="2k"/>
@@ -36800,7 +36800,7 @@ Polyswitch Resetable Fuses</description>
 <attribute name="NAME" x="-71.12" y="-214.884" size="1.27" layer="95"/>
 <attribute name="VALUE" x="-71.12" y="-261.62" size="1.27" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-180.34" y="-162.56" smashed="yes">
+<instance part="50MHZ" gate="G$1" x="-180.34" y="-162.56" smashed="yes">
 <attribute name="NAME" x="-187.96" y="-154.305" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-187.96" y="-172.72" size="1.778" layer="96"/>
 </instance>
@@ -37503,7 +37503,7 @@ Polyswitch Resetable Fuses</description>
 <junction x="106.68" y="-25.4"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="50MHZ" gate="G$1" pin="VDD"/>
 <wire x1="-193.04" y1="-157.48" x2="-198.12" y2="-157.48" width="0.1524" layer="91"/>
 <wire x1="-198.12" y1="-157.48" x2="-198.12" y2="-149.86" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
@@ -38260,7 +38260,7 @@ Polyswitch Resetable Fuses</description>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="50MHZ" gate="G$1" pin="GND"/>
 <wire x1="-193.04" y1="-167.64" x2="-200.66" y2="-167.64" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="-167.64" x2="-200.66" y2="-177.8" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="IO_VSS2"/>
@@ -39302,7 +39302,7 @@ Polyswitch Resetable Fuses</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="NT-JP" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="OUT"/>
+<pinref part="50MHZ" gate="G$1" pin="OUT"/>
 <wire x1="-165.1" y1="-162.56" x2="-167.64" y2="-162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
