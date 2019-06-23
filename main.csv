@@ -1,0 +1,168 @@
+Partlist
+
+Exported from mainboard.brd at 2019/06/23 19:20
+
+EAGLE Version 9.4.0 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part           Value                  Package                  Library                     Position (mil)        Orientation
+
+3.3C1          100u                   D/7343-31R               rcl                         (2300 4400)           R0
+3.3C2          0.1u                   C0805                    rcl                         (2325 4250)           R180
+3.3REG         OKL-T_6-W12N-C         OKL-T/3-W5               SamacSys_Parts              (2025 4800)           R270
+5C1            100u                   D/7343-31R               rcl                         (1450 4400)           R0
+5C2            0.1u                   C0805                    rcl                         (1500 4250)           R180
+5VREG          OKL-T_6-W12N-C         OKL-T/3-W5               SamacSys_Parts              (1175 4800)           R270
+5VS-C1         0.1u                   C0805                    rcl                         (1990 2190)           R270
+8MHZ           P-08669_HUSG-12.000-20 HC49U-V                  Akizuki                     (3190 2730)           R180
+9C1            100u                   D/7343-31R               rcl                         (1050 4600)           R90
+12C2           0.1u                   C0805                    rcl                         (1025 4850)           R180
+50MHZ          ASE                    ASE                      crystal                     (3970 3320)           R0
+100            330                    R0805                    0@Mylibrary-main1           (2010 3680)           R90
+ADC1           XH-3                   CON3                     0@Mylibrary-main1           (3050 4300)           R180
+ADC2           XH-3                   CON3                     0@Mylibrary-main1           (3050 4550)           R180
+ADC3           XH-3                   CON3                     0@Mylibrary-main1           (3050 4800)           R180
+ADC4           XH-3                   CON3                     0@Mylibrary-main1           (3050 5050)           R180
+BAT-JP1        0                      R0805                    0@Mylibrary-main1           (2120 2100)           R0
+BAT-R1         2.2k                   R0805                    0@Mylibrary-main1           (1990 1950)           R90
+BAT-R2         330                    R0805                    0@Mylibrary-main1           (2070 1950)           R270
+BOOT0-STM      DTS-6                  DTS-6                    forprint                    (1900 750)            R270
+BUZ-R1         4.7k                   R0805                    0@Mylibrary-main1           (3380 4100)           R90
+BUZ-R2         4.7k                   R0805                    0@Mylibrary-main1           (3300 4100)           R90
+BUZZER2        XH-2                   CON2                     0@Mylibrary-main1           (3100 4050)           R0
+C1             22uF25V                C2012                    resistor                    (1025 4950)           R180
+C2             10uF10V                C2012                    resistor                    (1500 4550)           R180
+C3             22uF25V                C2012                    resistor                    (1925 4925)           R180
+C4             10uF10V                C2012                    resistor                    (2350 4550)           R180
+C5             22pF                   C1608                    resistor                    (3140 2885)           R180
+C6             22pF                   C1608                    resistor                    (3255 2885)           R0
+CAN-C1         4.7u                   C0805                    rcl                         (1780 1650)           MR180
+CAN-R          XH-2                   CON2                     0@Mylibrary-main1           (2120 1280)           R90
+CAN-R1         51                     R0805                    0@Mylibrary-main1           (1850 1570)           R270
+CAN-R2         51                     R0805                    0@Mylibrary-main1           (1850 1730)           R90
+CN1                                   RJ45_PULSEJACK           Akizuki                     (5250 2750)           R90
+EM-SW          XH-2                   CON2                     0@Mylibrary-main1           (3190 2430)           R0
+FET-R9         100                    R0805                    0@Mylibrary-main1           (900 2220)            R0
+FET-R10        100                    R0805                    0@Mylibrary-main1           (900 2300)            R0
+FET-R13        100                    R0805                    0@Mylibrary-main1           (900 2900)            R0
+FET-R14        100                    R0805                    0@Mylibrary-main1           (900 3000)            R0
+FETR2          4.7k                   EXBN8V                   resistor-dil                (950 2550)            R90
+GND-CH         GND                    SMD2,54-5,08             wirepad                     (590 3245)            R0
+GND-CHK        GND                    2,15/1,0                 wirepad                     (750 3250)            R0
+GND-CHK1       GND                    2,15/1,0                 wirepad                     (1000 4050)           R0
+HUMAN1         XH-3                   CON3                     0@Mylibrary-main1           (4050 4110)           R90
+HUMAN2         XH-3                   CON3                     0@Mylibrary-main1           (4400 4110)           R90
+HUMAN3         XH-3                   CON3                     0@Mylibrary-main1           (4750 4110)           R90
+I2C-R          XH-4                   CON4                     0@Mylibrary-main1           (1750 3250)           R90
+I2C-R1         4.7K                   R0805                    0@Mylibrary-main1           (1300 3200)           R0
+I2C-R2         4.7K                   R0805                    0@Mylibrary-main1           (1300 3300)           R0
+IC1            STM32F429VGT           LQFP100                  micro-stm_v3                (3150 3400)           R0
+IC2            LTC485N                DIL08                    linear-technology           (2350 2550)           R90
+IC3            DP83848                LQFP48                   national-semiconductor      (4150 2950)           R90
+IC4            MCP2561-E_P            DIP781W56P254L950H533Q8N MCP2561-E_P                 (2090 1660)           R180
+JP1                                   1X02/90                  0pinhead                    (2245 1015)           R270
+JY901          XH-4                   CON4                     0@Mylibrary-main1           (1500 3250)           R90
+LED1                                  B3P-VH                   jst-vh                      (730 710)             R270
+LED2                                  B3P-VH                   jst-vh                      (260 710)             R270
+LED3                                  B3P-VH                   jst-vh                      (730 1380)            R270
+LED4                                  B3P-VH                   jst-vh                      (260 1380)            R270
+LED5                                  B2P-VH                   jst-vh                      (250 2050)            R270
+LED6                                  B2P-VH                   jst-vh                      (250 2400)            R270
+LED7                                  B2P-VH                   jst-vh                      (250 2750)            R270
+LED8                                  B2P-VH                   jst-vh                      (250 3100)            R270
+LIPO                                  B3P-VH                   jst-vh                      (1970 200)            R0
+M-JP-GND       0                      R0805                    0@Mylibrary-main1           (3850 3750)           R180
+M-JP-VCC       0                      R0805                    0@Mylibrary-main1           (3850 3650)           R0
+MAIN-SPL       XH-2                   CON2                     forprint                    (320 3550)            R0
+MAINSW2        MAIN                   MA03-1                   0con-lstb                   (700 4050)            R180
+MOTOR1         XH-3                   CON3                     0@Mylibrary-main1           (4800 3650)           R90
+MOTOR2         XH-3                   CON3                     0@Mylibrary-main1           (4550 3650)           R90
+MOTOR3         XH-3                   CON3                     0@Mylibrary-main1           (4300 3650)           R90
+MOTOR4         XH-3                   CON3                     0@Mylibrary-main1           (4050 3650)           R90
+MPU-SIG        XH-6                   CON6                     0@Mylibrary-main1           (2450 3200)           R90
+NT-C1          0.1u                   C0805                    rcl                         (4160 3280)           R270
+NT-C2          0.1u                   C0805                    rcl                         (4400 3220)           R0
+NT-C3          0.1u                   C0805                    rcl                         (4510 3010)           R270
+NT-C4          0.1u                   C0805                    rcl                         (3830 2840)           R90
+NT-C5          0.1u                   C0805                    rcl                         (3880 3200)           R180
+NT-JP          0                      R0805                    0@Mylibrary-main1           (4080 3240)           R90
+NT-R1          2k                     R0805                    0@Mylibrary-main1           (3870 3010)           R180
+NT-R2          2k                     R0805                    0@Mylibrary-main1           (3870 3110)           R180
+NT-R3          4.87k                  R0805                    0@Mylibrary-main1           (4350 3140)           R180
+NT-R4          2k                     R0805                    0@Mylibrary-main1           (4510 3160)           R90
+NT-R5          2k                     R0805                    0@Mylibrary-main1           (4600 3190)           R90
+NT-R6          51                     R0805                    resistor                    (4700 3050)           R90
+NT-R7          51                     R0805                    resistor                    (4620 2970)           R90
+NT-R8          51                     R0805                    resistor                    (4690 2810)           R270
+NT-R9          51                     R0805                    resistor                    (4600 2740)           R270
+NT-R10         330                    R0805                    0@Mylibrary-main1           (4780 3200)           R0
+NT-R11         330                    R0805                    0@Mylibrary-main1           (5020 2360)           R0
+NT-RST-R       4.7K                   R0805                    0@Mylibrary-main1           (4240 3280)           R90
+PING           XH-3                   CON3                     0@Mylibrary-main1           (2675 4500)           R90
+Q2             IRF9530                TO220BV                  transistor-power            (1800 4050)           R0
+Q3             IRF9530                TO220BV                  transistor-power            (450 4500)            R90
+Q4             IRF9530                TO220BV                  transistor-power            (1350 4050)           R0
+Q5             IRF9530                TO220BV                  transistor-power            (725 4500)            R90
+R1             1.2k                   0204/7                   resistor                    (1400 4650)           R180
+R2             1.2k                   0204/7                   resistor                    (2250 4650)           R180
+RESET-STM      DTS-6                  DTS-6                    forprint                    (1610 750)            R90
+RO-R           4.7k                   EXBN8V                   resistor-dil                (1650 2900)           R0
+RO1            XH-5                   CON5                     0@Mylibrary-main1           (1450 2550)           R90
+RO2            XH-5                   CON5                     0@Mylibrary-main1           (1700 2550)           R90
+ROUTER                                AK500/2-H                con-ptr500                  (160 3920)            R90
+RP-C1          0.1u                   C0805                    rcl                         (2290 380)            R180
+RP-C2          0.1u                   C0805                    rcl                         (2290 460)            R180
+RS485-S        100                    R0805                    0@Mylibrary-main1           (1850 1410)           R90
+S1             VM                     M251                     switch-k                    (1350 3700)           R0
+S2             VM                     M251                     switch-k                    (2330 3990)           R0
+S3             VM                     M251                     switch-k                    (1800 3700)           R0
+S4             SKRPACE010             SW_SKRPACE010            SKRPACE010                  (3650 4950)           R90
+S5             SKRPACE010             SW_SKRPACE010            SKRPACE010                  (4430 3360)           R180
+SG1            F/EE17P                F/EE17P                  buzzer                      (3600 4450)           R90
+SJ1                                   SJ_2W                    jumper                      (730 1730)            R0
+SJ2                                   SJ_2W                    jumper                      (730 1040)            R0
+SJ3                                   SJ_2W                    jumper                      (260 1730)            R0
+SJ4                                   SJ_2W                    jumper                      (260 1040)            R0
+SJ5                                   SJ                       jumper                      (1820 4630)           R90
+SJ6                                   SJ                       jumper                      (1990 4630)           R90
+SP-LED1                               CHIPLED_0805             led                         (1580 3810)           R180
+SP-LED2                               CHIPLED_0805             led                         (2010 3810)           R180
+SP-R1          1.2k                   R0805                    0@Mylibrary-main1           (1880 5065)           R90
+SP-R2          20K                    R0805                    0@Mylibrary-main1           (1400 5100)           MR270
+SP-R3          1.2k                   R0805                    0@Mylibrary-main1           (2720 5060)           R90
+SP-R4          20K                    R0805                    0@Mylibrary-main1           (2250 5075)           MR270
+SP-R5          330                    R0805                    0@Mylibrary-main1           (1580 3680)           R90
+SP-R6          4.7K                   R0805                    0@Mylibrary-main1           (675 4475)            R90
+SP-R7          4.7K                   R0805                    0@Mylibrary-main1           (1900 4100)           R0
+SP-R8          4.7K                   R0805                    0@Mylibrary-main1           (1450 4100)           R0
+SP-RC1         20k                    RTRIM3296W               resistor                    (1750 5000)           R180
+SP-RC2         20k                    RTRIM3296W               resistor                    (2600 5000)           R180
+SPI-R          XH-6                   CON6                     0@Mylibrary-main1           (2150 3200)           R90
+ST-LINKV2                             MA06-1                   0con-lstb                   (2700 3960)           R90
+STM-C1         0.1u                   C0805                    rcl                         (3490 2940)           R180
+STM-C2         0.1u                   C0805                    rcl                         (3577.5 3106.25)      R90
+STM-C3         0.1u                   C0805                    rcl                         (3480 3730)           R270
+STM-C4         0.1u                   C0805                    rcl                         (2700 3130)           R90
+STM-C5         0.1u                   C0805                    rcl                         (2910 3800)           R180
+STM-C6         0.1u                   C0805                    rcl                         (3600 3640)           R90
+STM-C7         0.1u                   C0805                    rcl                         (2550 3780)           R270
+STM-R1         4.7K                   R0805                    0@Mylibrary-main1           (1700 990)            R90
+STM-R2         4.7K                   R0805                    0@Mylibrary-main1           (2700 3350)           R180
+SUOPPLY-SW2    XH-3                   CON3                     forprint                    (750 3700)            R180
+SW-R1          4.7k                   R0805                    0@Mylibrary-main1           (3430 2430)           R0
+T3                                    SO8                      zetex                       (650 2200)            R90
+T4                                    SO8                      zetex                       (650 2900)            R90
+TO-F7                                 ML14                     0con-harting-ml             (1600 1640)           R90
+TO-UI3                                ML14                     0con-harting-ml             (1220 1640)           R90
+U$2            XT60                   XT60                     XT60                        (180 4890)            R270
+USB-POLY       400mA                  F0805MP                  polyswitch                  (5060 3910)           R0
+VOLTAGE-METER2 XH-2                   CON2                     forprint                    (2350 3800)           R180
+X1             RASPI_BOARD_B+#_FP     RASPI_BOARD_B+_FULL_PAD  raspberrypi_bastelstube_v13 (2300 2250)           MR180
+X2             DCJACK-MJ179P          MJ-179P                  kamiki-dcjack               (750 4900)            R270
+X3             C-07674_USB-A          PN87520-S                Akizuki                     (5300 4050)           R90
+X4                                    AK500/2                  con-ptr500                  (1120 140)            R0
+X5                                    AK500/2                  con-ptr500                  (1520 140)            R0
+X6                                    AK500/2                  con-ptr500                  (720 140)             R0
+XB1            XBEE-PRO               XBEE-PRO                 maxstream                   (4650 4800)           R270
+XBEE-RST       4.7K                   R0805                    0@Mylibrary-main1           (3840 5070)           R90
